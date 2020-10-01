@@ -1,0 +1,2432 @@
+fileFormatVersion: 2
+guid: 824da1344ecdb5946ada7af7dd540d7b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1687720683834198910
+    second: transparent-asriel-undertale-sprite-sheet_0
+  - first:
+      213: -3633414774834861608
+    second: transparent-asriel-undertale-sprite-sheet_1
+  - first:
+      213: -7692113961193910101
+    second: transparent-asriel-undertale-sprite-sheet_2
+  - first:
+      213: 4422881833534238870
+    second: transparent-asriel-undertale-sprite-sheet_3
+  - first:
+      213: -8051730582068022666
+    second: transparent-asriel-undertale-sprite-sheet_4
+  - first:
+      213: -5049696489621592007
+    second: transparent-asriel-undertale-sprite-sheet_5
+  - first:
+      213: 2239107057568542187
+    second: transparent-asriel-undertale-sprite-sheet_6
+  - first:
+      213: -7500650959918035329
+    second: transparent-asriel-undertale-sprite-sheet_7
+  - first:
+      213: 2604747629775983464
+    second: transparent-asriel-undertale-sprite-sheet_8
+  - first:
+      213: -2617270481689501598
+    second: transparent-asriel-undertale-sprite-sheet_9
+  - first:
+      213: 3766614305895816612
+    second: transparent-asriel-undertale-sprite-sheet_10
+  - first:
+      213: -6352382760097322004
+    second: transparent-asriel-undertale-sprite-sheet_11
+  - first:
+      213: 1180982543965033847
+    second: transparent-asriel-undertale-sprite-sheet_12
+  - first:
+      213: 9185592527197644767
+    second: transparent-asriel-undertale-sprite-sheet_13
+  - first:
+      213: 6037479918445871940
+    second: transparent-asriel-undertale-sprite-sheet_14
+  - first:
+      213: 1056624389881517196
+    second: transparent-asriel-undertale-sprite-sheet_15
+  - first:
+      213: -1028431219338806365
+    second: transparent-asriel-undertale-sprite-sheet_16
+  - first:
+      213: -8298731588737414058
+    second: transparent-asriel-undertale-sprite-sheet_17
+  - first:
+      213: 7245958730551850240
+    second: transparent-asriel-undertale-sprite-sheet_18
+  - first:
+      213: 3552981150603069359
+    second: transparent-asriel-undertale-sprite-sheet_19
+  - first:
+      213: 7918133160663739638
+    second: transparent-asriel-undertale-sprite-sheet_20
+  - first:
+      213: 2637363199729048403
+    second: transparent-asriel-undertale-sprite-sheet_21
+  - first:
+      213: 5477054007055287714
+    second: transparent-asriel-undertale-sprite-sheet_22
+  - first:
+      213: 2282476888159734429
+    second: transparent-asriel-undertale-sprite-sheet_23
+  - first:
+      213: -614310247926743992
+    second: transparent-asriel-undertale-sprite-sheet_24
+  - first:
+      213: 6037338043922949354
+    second: transparent-asriel-undertale-sprite-sheet_25
+  - first:
+      213: 5007045065431761598
+    second: transparent-asriel-undertale-sprite-sheet_26
+  - first:
+      213: -3462866848961245715
+    second: transparent-asriel-undertale-sprite-sheet_27
+  - first:
+      213: -4987310994100715145
+    second: transparent-asriel-undertale-sprite-sheet_28
+  - first:
+      213: -139220210683630550
+    second: transparent-asriel-undertale-sprite-sheet_29
+  - first:
+      213: 6634945859571912199
+    second: transparent-asriel-undertale-sprite-sheet_30
+  - first:
+      213: 365690058797856075
+    second: transparent-asriel-undertale-sprite-sheet_31
+  - first:
+      213: 7671701636693912570
+    second: transparent-asriel-undertale-sprite-sheet_32
+  - first:
+      213: 488923833082005081
+    second: transparent-asriel-undertale-sprite-sheet_33
+  - first:
+      213: 2042476121808442889
+    second: transparent-asriel-undertale-sprite-sheet_34
+  - first:
+      213: -2561594070698137204
+    second: transparent-asriel-undertale-sprite-sheet_35
+  - first:
+      213: 1504278224011775961
+    second: transparent-asriel-undertale-sprite-sheet_36
+  - first:
+      213: 4463533815400202678
+    second: transparent-asriel-undertale-sprite-sheet_37
+  - first:
+      213: 899063971363820251
+    second: transparent-asriel-undertale-sprite-sheet_38
+  - first:
+      213: 5745157388729560615
+    second: transparent-asriel-undertale-sprite-sheet_39
+  - first:
+      213: -8951150364611330096
+    second: transparent-asriel-undertale-sprite-sheet_40
+  - first:
+      213: -6862551472407630698
+    second: transparent-asriel-undertale-sprite-sheet_41
+  - first:
+      213: -7741632137393976778
+    second: transparent-asriel-undertale-sprite-sheet_42
+  - first:
+      213: 72768906629548007
+    second: transparent-asriel-undertale-sprite-sheet_43
+  - first:
+      213: 4888424118919256856
+    second: transparent-asriel-undertale-sprite-sheet_44
+  - first:
+      213: -8214669183500024431
+    second: transparent-asriel-undertale-sprite-sheet_45
+  - first:
+      213: 1433882059366319192
+    second: transparent-asriel-undertale-sprite-sheet_46
+  - first:
+      213: -5738319829200585374
+    second: transparent-asriel-undertale-sprite-sheet_47
+  - first:
+      213: -3509542057117964017
+    second: transparent-asriel-undertale-sprite-sheet_48
+  - first:
+      213: 4322421508248508973
+    second: transparent-asriel-undertale-sprite-sheet_49
+  - first:
+      213: 5205658435992222777
+    second: transparent-asriel-undertale-sprite-sheet_50
+  - first:
+      213: -1945648501494607203
+    second: transparent-asriel-undertale-sprite-sheet_51
+  - first:
+      213: 7182816300763911797
+    second: transparent-asriel-undertale-sprite-sheet_52
+  - first:
+      213: -6320275365805241779
+    second: transparent-asriel-undertale-sprite-sheet_53
+  - first:
+      213: -8957021390113104758
+    second: transparent-asriel-undertale-sprite-sheet_54
+  - first:
+      213: 7025024089390411690
+    second: transparent-asriel-undertale-sprite-sheet_55
+  - first:
+      213: 8579505167491705670
+    second: transparent-asriel-undertale-sprite-sheet_56
+  - first:
+      213: 2084693668509812356
+    second: transparent-asriel-undertale-sprite-sheet_57
+  - first:
+      213: 2755962527479775298
+    second: transparent-asriel-undertale-sprite-sheet_58
+  - first:
+      213: 52818872967522812
+    second: transparent-asriel-undertale-sprite-sheet_59
+  - first:
+      213: 5405874198170421778
+    second: transparent-asriel-undertale-sprite-sheet_60
+  - first:
+      213: -8609355574608805089
+    second: transparent-asriel-undertale-sprite-sheet_61
+  - first:
+      213: -822863067912551171
+    second: transparent-asriel-undertale-sprite-sheet_62
+  - first:
+      213: -1656934238673845633
+    second: transparent-asriel-undertale-sprite-sheet_63
+  - first:
+      213: 7516494623895462419
+    second: transparent-asriel-undertale-sprite-sheet_64
+  - first:
+      213: 4031495906877238257
+    second: transparent-asriel-undertale-sprite-sheet_65
+  - first:
+      213: -534187159114192026
+    second: transparent-asriel-undertale-sprite-sheet_66
+  - first:
+      213: 1864625892679786481
+    second: transparent-asriel-undertale-sprite-sheet_67
+  - first:
+      213: -4055573635866400667
+    second: transparent-asriel-undertale-sprite-sheet_68
+  - first:
+      213: -2188781579244155700
+    second: transparent-asriel-undertale-sprite-sheet_69
+  - first:
+      213: -2123603912548554863
+    second: transparent-asriel-undertale-sprite-sheet_70
+  - first:
+      213: -6951877984759814754
+    second: transparent-asriel-undertale-sprite-sheet_71
+  - first:
+      213: -6899269171395521227
+    second: transparent-asriel-undertale-sprite-sheet_72
+  - first:
+      213: -6261337230693310572
+    second: transparent-asriel-undertale-sprite-sheet_73
+  - first:
+      213: -7872281248058057940
+    second: transparent-asriel-undertale-sprite-sheet_74
+  - first:
+      213: -1192133466303877752
+    second: transparent-asriel-undertale-sprite-sheet_75
+  - first:
+      213: 1059586007662218210
+    second: transparent-asriel-undertale-sprite-sheet_76
+  - first:
+      213: 2897771663959236565
+    second: transparent-asriel-undertale-sprite-sheet_77
+  - first:
+      213: -6683198351713620006
+    second: transparent-asriel-undertale-sprite-sheet_78
+  - first:
+      213: 4189357487426294067
+    second: transparent-asriel-undertale-sprite-sheet_79
+  - first:
+      213: -4383617887398472869
+    second: transparent-asriel-undertale-sprite-sheet_80
+  - first:
+      213: -7570079365772404256
+    second: transparent-asriel-undertale-sprite-sheet_81
+  - first:
+      213: 7156884028262716984
+    second: transparent-asriel-undertale-sprite-sheet_82
+  - first:
+      213: -4605826798415708531
+    second: transparent-asriel-undertale-sprite-sheet_83
+  - first:
+      213: -439295324833472497
+    second: transparent-asriel-undertale-sprite-sheet_84
+  - first:
+      213: -4626073968425002953
+    second: transparent-asriel-undertale-sprite-sheet_85
+  - first:
+      213: 587500186398221692
+    second: transparent-asriel-undertale-sprite-sheet_86
+  - first:
+      213: -9199829603155093003
+    second: transparent-asriel-undertale-sprite-sheet_87
+  - first:
+      213: -7883701849582491761
+    second: transparent-asriel-undertale-sprite-sheet_88
+  - first:
+      213: -383861901999488895
+    second: transparent-asriel-undertale-sprite-sheet_89
+  - first:
+      213: 954129209745151719
+    second: transparent-asriel-undertale-sprite-sheet_90
+  - first:
+      213: 7405413753356908948
+    second: transparent-asriel-undertale-sprite-sheet_91
+  - first:
+      213: 4996461678094705839
+    second: transparent-asriel-undertale-sprite-sheet_92
+  - first:
+      213: 307230113809607584
+    second: transparent-asriel-undertale-sprite-sheet_93
+  - first:
+      213: -8436991878213199080
+    second: transparent-asriel-undertale-sprite-sheet_94
+  - first:
+      213: -7876208388195592827
+    second: transparent-asriel-undertale-sprite-sheet_95
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 317
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b4400250dfb6710800000000000000
+      internalID: 1687720683834198910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 315
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9ef405384839dc0800000000000000
+      internalID: -3633414774834861608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 317
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0d63b5b1f104590800000000000000
+      internalID: -7692113961193910101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 317
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690365b189b316d30800000000000000
+      internalID: 4422881833534238870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 315
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672bfac02b1824090800000000000000
+      internalID: -8051730582068022666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 317
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93861901ccfdbe9b0800000000000000
+      internalID: -5049696489621592007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 317
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed617c6108e21f10800000000000000
+      internalID: 2239107057568542187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 315
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e84ed21b558e790800000000000000
+      internalID: -7500650959918035329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 317
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86396523b2ce52420800000000000000
+      internalID: 2604747629775983464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 317
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26028c12d569dabd0800000000000000
+      internalID: -2617270481689501598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_10
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 315
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad13dc31c3b54430800000000000000
+      internalID: 3766614305895816612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_11
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 317
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb651b398dc7d7a0800000000000000
+      internalID: -6352382760097322004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 271
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77519fadd51b36010800000000000000
+      internalID: 1180982543965033847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_13
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 271
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd729137cb7c97f70800000000000000
+      internalID: 9185592527197644767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_14
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 270
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44345857fff69c350800000000000000
+      internalID: 6037479918445871940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_15
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 271
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84d6ebc842e9ae00800000000000000
+      internalID: 1056624389881517196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_16
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 271
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab736f31474ab1f0800000000000000
+      internalID: -1028431219338806365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_17
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 270
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c4efea69bf4dc80800000000000000
+      internalID: -8298731588737414058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_18
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 271
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005feaf1311de8460800000000000000
+      internalID: 7245958730551850240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_19
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 271
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7ca5f2889be4130800000000000000
+      internalID: 3552981150603069359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_20
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 270
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc6a95582cd2ed60800000000000000
+      internalID: 7918133160663739638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_21
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 271
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b99875bdbc99420800000000000000
+      internalID: 2637363199729048403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_22
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 271
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5092ac997620c40800000000000000
+      internalID: 5477054007055287714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_23
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 270
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9acccef2acfcaf10800000000000000
+      internalID: 2282476888159734429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 225
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84cb17295188977f0800000000000000
+      internalID: -614310247926743992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 225
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4aaf8b6fee8c350800000000000000
+      internalID: 6037338043922949354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_26
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 225
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2ce6365f89c7540800000000000000
+      internalID: 5007045065431761598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_27
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 225
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded403ba2fc61ffc0800000000000000
+      internalID: -3462866848961245715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_28
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 225
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7710a34231389cab0800000000000000
+      internalID: -4987310994100715145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_29
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 225
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ca5acb4f3611ef0800000000000000
+      internalID: -139220210683630550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_30
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 225
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e8bb71b10141c50800000000000000
+      internalID: 6634945859571912199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_31
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 225
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45b984cb21331500800000000000000
+      internalID: 365690058797856075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_32
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 225
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb6cedfdfb577a60800000000000000
+      internalID: 7671701636693912570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_33
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 225
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9564311c2a109c600800000000000000
+      internalID: 488923833082005081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_34
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 225
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9061c961635585c10800000000000000
+      internalID: 2042476121808442889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_35
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 225
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c896a4db3c3637cd0800000000000000
+      internalID: -2561594070698137204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dfc391231540e410800000000000000
+      internalID: 1504278224011775961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_37
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 180
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b18fd53b58a1fd30800000000000000
+      internalID: 4463533815400202678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_38
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 180
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd21e732bed1a7c00800000000000000
+      internalID: 899063971363820251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_39
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 180
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72eafe5b436eabf40800000000000000
+      internalID: 5745157388729560615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_40
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 180
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dfbb3a2b2027c380800000000000000
+      internalID: -8951150364611330096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_41
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 180
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c2f429bc153c0a0800000000000000
+      internalID: -6862551472407630698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_42
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 180
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a42e48692309490800000000000000
+      internalID: -7741632137393976778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_43
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 180
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7095e5fe6820100800000000000000
+      internalID: 72768906629548007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_44
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 180
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b52af06db27d340800000000000000
+      internalID: 4888424118919256856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_45
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 180
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195022a96e1affd80800000000000000
+      internalID: -8214669183500024431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_46
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 180
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854c55ec22c26e310800000000000000
+      internalID: 1433882059366319192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_47
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 180
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d3beca4846d50b0800000000000000
+      internalID: -5738319829200585374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_48
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 137
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09a039e71a9b4fc0800000000000000
+      internalID: -3509542057117964017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_49
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 135
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a19a8e5735cfb30800000000000000
+      internalID: 4322421508248508973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_50
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 137
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93cf45b44c63e3840800000000000000
+      internalID: 5205658435992222777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_51
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 137
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9294a21ffaaff4e0800000000000000
+      internalID: -1945648501494607203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_52
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 135
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5761bed8e5d7ea360800000000000000
+      internalID: 7182816300763911797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_53
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 137
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ac6828a0fd948a0800000000000000
+      internalID: -6320275365805241779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_54
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 137
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c9bb4808442b380800000000000000
+      internalID: -8957021390113104758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_55
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 135
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf6daa6036ed7160800000000000000
+      internalID: 7025024089390411690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_56
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 137
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ba8f06e76801770800000000000000
+      internalID: 8579505167491705670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_57
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 137
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4868809a8d15eec10800000000000000
+      internalID: 2084693668509812356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_58
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 135
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24048b821552f3620800000000000000
+      internalID: 2755962527479775298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_59
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 137
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf96aa03c76abb000800000000000000
+      internalID: 52818872967522812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_60
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 91
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ac56211f5850b40800000000000000
+      internalID: 5405874198170421778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_61
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 91
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13c96e18bc658880800000000000000
+      internalID: -8609355574608805089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_62
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 90
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df4c842466a9494f0800000000000000
+      internalID: -822863067912551171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_63
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 91
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72c9a7b6136109e0800000000000000
+      internalID: -1656934238673845633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_64
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 91
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3122c6d4904ff4860800000000000000
+      internalID: 7516494623895462419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_65
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 90
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fbebd2ea20c2f730800000000000000
+      internalID: 4031495906877238257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_66
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 91
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b6c69eb9f2698f0800000000000000
+      internalID: -534187159114192026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_67
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 91
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff9c24ce5b70e910800000000000000
+      internalID: 1864625892679786481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_68
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 90
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5686eb9f345b7b7c0800000000000000
+      internalID: -4055573635866400667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_69
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 91
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccccb3610c2ef91e0800000000000000
+      internalID: -2188781579244155700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_70
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 91
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197e9ec2e717782e0800000000000000
+      internalID: -2123603912548554863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_71
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 90
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9568843ec7f58f90800000000000000
+      internalID: -6951877984759814754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_72
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 45
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5359a251e3fd040a0800000000000000
+      internalID: -6899269171395521227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_73
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 45
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fd89176f24b19a0800000000000000
+      internalID: -6261337230693310572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_74
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 45
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2bd78df9e900c290800000000000000
+      internalID: -7872281248058057940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_75
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 45
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d2a18bde0b47fe0800000000000000
+      internalID: -1192133466303877752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_76
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 45
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb4eab2cd764be00800000000000000
+      internalID: 1059586007662218210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_77
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 45
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df9b7ea9f3f63820800000000000000
+      internalID: 2897771663959236565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_78
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 45
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf22aa12828043a0800000000000000
+      internalID: -6683198351713620006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_79
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 45
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331da2b4076932a30800000000000000
+      internalID: 4189357487426294067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_80
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 45
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53d09eb1c24a23c0800000000000000
+      internalID: -4383617887398472869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_81
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 45
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e91f91cceca1f690800000000000000
+      internalID: -7570079365772404256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_82
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 45
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836144bda1c525360800000000000000
+      internalID: 7156884028262716984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_83
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 45
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ef477fde0d410c0800000000000000
+      internalID: -4605826798415708531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00afc3ca3f47e9f0800000000000000
+      internalID: -439295324833472497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_85
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73898575c32eccfb0800000000000000
+      internalID: -4626073968425002953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_86
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 0
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75edbb8e48372800800000000000000
+      internalID: 587500186398221692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_87
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f951ddf7b3a35080800000000000000
+      internalID: -9199829603155093003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_88
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87ab8cffe6779290800000000000000
+      internalID: -7883701849582491761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_89
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 0
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 180c38842af3caaf0800000000000000
+      internalID: -383861901999488895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_90
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e61fa8067fbd3d00800000000000000
+      internalID: 954129209745151719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_91
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 0
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49971a7b29055c660800000000000000
+      internalID: 7405413753356908948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_92
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 0
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4efa08c6ff65540800000000000000
+      internalID: 4996461678094705839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_93
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 0
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abace52920834400800000000000000
+      internalID: 307230113809607584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_94
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b1f3e7698c9ea80800000000000000
+      internalID: -8436991878213199080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transparent-asriel-undertale-sprite-sheet_95
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 0
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58556ac633612b290800000000000000
+      internalID: -7876208388195592827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
