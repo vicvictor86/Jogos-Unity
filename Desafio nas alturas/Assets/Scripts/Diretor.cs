@@ -9,7 +9,7 @@ public class Diretor : MonoBehaviour
     private Pontuacao pontuacao = null;
     private InterfaceGameOver interfaceGameOver = null;
 
-    public void Start()
+    protected virtual void Start()
     {
         this.aviao = GameObject.FindObjectOfType<Aviao>();
         this.pontuacao = GameObject.FindObjectOfType<Pontuacao>();
@@ -23,7 +23,7 @@ public class Diretor : MonoBehaviour
         this.interfaceGameOver.MostrarInterface(); 
     }
     //Volta tudo aos momentos iniciais
-    public void ReiniciarJogo()
+    public virtual void ReiniciarJogo()
     {
         Time.timeScale = 1;
         this.interfaceGameOver.EsconderInterface();

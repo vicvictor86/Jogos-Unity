@@ -11,10 +11,16 @@ public class ControleDeDificuldade : MonoBehaviour
     private float tempoParaDificuldadeMaxima = 0;
     public float Dificuldade {get; private set;}
 
-    void Update()
+    private void Update()
     {
         this.tempoPasssado += Time.deltaTime;
         this.Dificuldade = this.tempoPasssado / this.tempoParaDificuldadeMaxima;
         this.Dificuldade = Mathf.Min(1, this.Dificuldade);
     }
+
+    public void ZerarDificuldade()
+    {
+        this.tempoPasssado = 0;
+    }
+
 }

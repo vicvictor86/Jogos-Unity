@@ -73,7 +73,6 @@ public class Player : MonoBehaviour
         //Testar dps o método do video e ver qual fica melhor
         rigidbody.velocity = new Vector2(movimentoH * speed, rigidbody.velocity.y);
         rigidbody.velocity = new Vector2(rigidbody.velocity.x, movimentoV * speed);
-        Debug.Log(movimentoV);
     }
 
 }

@@ -10,10 +10,13 @@ public class GeradorDeObstaculos : MonoBehaviour
     [SerializeField]
     private float tempoParaGerarDificil = 0;
     private ControleDeDificuldade controleDeDificuldade;
+
     //Prefabs
     [SerializeField]
     private GameObject manualDeInstrucoes = null;
+
     private float cronometro;
+    private bool parado;
 
     //Chamado na criação do objeto
     private void Awake()
@@ -28,6 +31,11 @@ public class GeradorDeObstaculos : MonoBehaviour
 
     void Update()
     {
+
+        if (this.parado)
+        {
+            return;
+        }
         //Faz a contagem do tempo
         this.cronometro -= Time.deltaTime;
 
@@ -43,7 +51,15 @@ public class GeradorDeObstaculos : MonoBehaviour
                                          this.controleDeDificuldade.Dificuldade);
         }
 
-        
+    }
 
+    public void Parar()
+    {
+        this.parado = true;
+    }
+
+    public void Recomecar()
+    {
+        this.parado = false;
     }
 }

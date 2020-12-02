@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Aviao : MonoBehaviour
 {
@@ -8,11 +9,15 @@ public class Aviao : MonoBehaviour
     private Rigidbody2D fisica;
     [SerializeField]
     private float forca = 0;
-    private Diretor diretor = null;
+    [SerializeField]
+    private UnityEvent AoBater = null;
 
     private Vector3 posicaoInicial;
     private bool devoImpulsionar;
     private Animator animacao = null;
+
+    [SerializeField]
+    private UnityEvent AoPassarPeloObstaculo = null;
 
     private void Awake()
     {
@@ -20,16 +25,9 @@ public class Aviao : MonoBehaviour
         this.posicaoInicial = this.transform.position;
         this.animacao = this.GetComponent<Animator>();
     }
-    public void Start()
-    {
-        this.diretor = FindObjectOfType<Diretor>();
-    }
+
     private void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
-        {
-            this.devoImpulsionar = true;
-        }
         this.animacao.SetFloat("VelocidadeY", this.fisica.velocity.y);
     }
 
@@ -39,6 +37,11 @@ public class Aviao : MonoBehaviour
         {
             this.Impulsionar();
         }
+    }
+
+    public void DarImpulso()
+    {
+        this.devoImpulsionar = true;
     }
 
     public void Reiniciar()
@@ -57,6 +60,11 @@ public class Aviao : MonoBehaviour
     public void OnCollisionEnter2D(Collision2D collision)
     {
         this.fisica.simulated = false;
-        this.diretor.FinalizarJogo();
+        this.AoBater.Invoke();
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        this.AoPassarPeloObstaculo.Invoke();
     }
 }
