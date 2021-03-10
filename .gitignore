@@ -10,11 +10,14 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 /oDOGBproject/
-/Generic Game/
+/Assets Generic Game/
 /Sprites criados/
 /FutebolHead/
 /HeadFutebol/
 /MegaMan/
+/Jogo Workshop CJZ/
+/Pássaro Irritado/
+Sites ou programas uteis.txt
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta

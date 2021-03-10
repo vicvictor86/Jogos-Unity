@@ -56,17 +56,12 @@ public class Player : MonoBehaviour
             GetComponent<Animator>().SetBool("MovingUp", false);
             GetComponent<Animator>().SetBool("MovingDown", false);
         }
-
-
-
-
-
     }
 
     private void movimentoPlayer()
     {
-        movimentoH = Input.GetAxis("Horizontal");
-        movimentoV = Input.GetAxis("Vertical");
+        movimentoH = Input.GetAxisRaw("Horizontal");
+        movimentoV = Input.GetAxisRaw("Vertical");
         Rigidbody2D rigidbody = GetComponent<Rigidbody2D>();
 
         //Alteração na movimentação para n ter aceleração do movimento

@@ -1,12 +1,15 @@
-﻿using System.Collections;
+﻿using Microsoft.Unity.VisualStudio.Editor;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerHeart : MonoBehaviour
 {//UNDERTALE COPY
 
-    public static float speed;
-    public static int life;
+    public Rigidbody2D rigid;
+
+    public float speed;
+    public int life;
     public static Vector3 tempoPosition;
 
     //Movimentação
@@ -14,26 +17,26 @@ public class PlayerHeart : MonoBehaviour
     private float movimentoV;
     private Vector3 firstPosition;
 
-    //Logica dos cliques
-    public bool clickFight;
-    public bool clickAct;
-    public bool clickItem;
-    public bool clickMercy;
-
-
-
-
+    public Diretor diretor;
+    public GameObject battleButtons;
 
     void Start()
     {
-        life = Player.life;
-        speed = 300;
+        
     }
 
  
     void Update()
     {
         movimentoPlayerHeart();
+
+        if(!diretor.isFighting)
+        {
+            if(diretor.isFighting)
+            {
+                
+            }
+        }
       
         //Fazer as bolas de fogo da toriel caindo e dando dano
 
@@ -43,6 +46,10 @@ public class PlayerHeart : MonoBehaviour
     public void OnCollisionEnter2D(Collision2D collision2D)
     {
         Debug.Log("Colidiu com " + collision2D.gameObject.tag);
+        if(collision2D != null)
+        {
+            rigid.velocity = new Vector2(0, 0); 
+        }
     }
 
 
@@ -53,9 +60,9 @@ public class PlayerHeart : MonoBehaviour
 
 
     private void movimentoPlayerHeart()
-    {
-        movimentoH = Input.GetAxis("Horizontal");
-        movimentoV = Input.GetAxis("Vertical");
+    {   
+        movimentoH = Input.GetAxisRaw("Horizontal");
+        movimentoV = Input.GetAxisRaw("Vertical");
         Rigidbody2D rigidbody = GetComponent<Rigidbody2D>();
         rigidbody.velocity = new Vector2(movimentoH * speed, rigidbody.velocity.y);
         rigidbody.velocity = new Vector2(rigidbody.velocity.x, movimentoV * speed);
