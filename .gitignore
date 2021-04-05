@@ -12,12 +12,11 @@
 /oDOGBproject/
 /Assets Generic Game/
 /Sprites criados/
-/FutebolHead/
-/HeadFutebol/
 /MegaMan/
 /Jogo Workshop CJZ/
-/Pássaro Irritado/
+/Generic Hero/
 Sites ou programas uteis.txt
+/.idea/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
