@@ -51,6 +51,7 @@ public class LevelManager : MonoBehaviour
     {
         Destroy(GameObject.Find("UIManager(Clone)"));
         Destroy(GameObject.Find("GameManager(Clone)"));
+      
     }
 
     void Start()

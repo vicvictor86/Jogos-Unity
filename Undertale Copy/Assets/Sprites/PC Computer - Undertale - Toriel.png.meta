@@ -5,6 +5,12 @@ TextureImporter:
   - first:
       213: -369467330547988116
     second: PC Computer - Undertale - Toriel_0
+  - first:
+      213: 4827479612453600946
+    second: PC Computer - Undertale - Toriel_1
+  - first:
+      213: -6835943472689622999
+    second: PC Computer - Undertale - Toriel_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -26,6 +32,7 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -60,6 +67,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
@@ -122,7 +130,7 @@ TextureImporter:
         width: 72
         height: 103
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -130,6 +138,27 @@ TextureImporter:
       bones: []
       spriteID: c69439e9b636fdaf0800000000000000
       internalID: -369467330547988116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - Toriel_1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 800
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bebcb46127aef240800000000000000
+      internalID: 4827479612453600946
       vertices: []
       indices: 
       edges: []

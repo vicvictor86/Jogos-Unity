@@ -5,9 +5,13 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {//UNDERTALE COPY
 
-    public static int life;
+    public int life;
     public float speed;
+    public int power;
+
     public static Vector3 tempPosition;
+
+    private Rigidbody2D rig;
 
     private float movimentoH;
     private float movimentoV;
@@ -18,56 +22,58 @@ public class Player : MonoBehaviour
 
         life = 10;
         speed = 100;
-
+        rig = this.GetComponent<Rigidbody2D>();
+        power = 5;
     }
 
     
     void Update()
     {
+        MovementPlayer();
+        AnimationMovement();
+    }
 
-        //Função que irá movimentar o personagem
-        movimentoPlayer();
-
-        //Animações do personagem
-
-        if(movimentoH > 0)
+    private void AnimationMovement()
+    {
+        if (movimentoH > 0)
         {
             GetComponent<Animator>().SetBool("MovingRight", true);
         }
-        if(movimentoH < 0)
+        if (movimentoH < 0)
         {
             GetComponent<Animator>().SetBool("MovingLeft", true);
         }
-        if(movimentoV > 0)
+        if (movimentoV > 0)
         {
             GetComponent<Animator>().SetBool("MovingUp", true);
         }
-        if(movimentoV < 0)
+        if (movimentoV < 0)
         {
             GetComponent<Animator>().SetBool("MovingDown", true);
         }
-        if(movimentoH == 0)
+        if (movimentoH == 0)
         {
             GetComponent<Animator>().SetBool("MovingRight", false);
             GetComponent<Animator>().SetBool("MovingLeft", false);
         }
-        if(movimentoV == 0)
+        if (movimentoV == 0)
         {
             GetComponent<Animator>().SetBool("MovingUp", false);
             GetComponent<Animator>().SetBool("MovingDown", false);
         }
     }
 
-    private void movimentoPlayer()
+    private void MovementPlayer()
     {
         movimentoH = Input.GetAxisRaw("Horizontal");
         movimentoV = Input.GetAxisRaw("Vertical");
-        Rigidbody2D rigidbody = GetComponent<Rigidbody2D>();
 
-        //Alteração na movimentação para n ter aceleração do movimento
-        //Testar dps o método do video e ver qual fica melhor
-        rigidbody.velocity = new Vector2(movimentoH * speed, rigidbody.velocity.y);
-        rigidbody.velocity = new Vector2(rigidbody.velocity.x, movimentoV * speed);
+        rig.velocity = new Vector2(movimentoH * speed, rig.velocity.y);
+        rig.velocity = new Vector2(rig.velocity.x, movimentoV * speed);
     }
 
+    public int GetPower()
+    {
+        return this.power;
+    }
 }

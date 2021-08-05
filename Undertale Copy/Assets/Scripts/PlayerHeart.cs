@@ -20,6 +20,7 @@ public class PlayerHeart : MonoBehaviour
     public Diretor diretor;
     public GameObject battleButtons;
 
+    public double power;
     void Start()
     {
         
@@ -28,14 +29,10 @@ public class PlayerHeart : MonoBehaviour
  
     void Update()
     {
-        movimentoPlayerHeart();
 
-        if(!diretor.isFighting)
+        if(diretor.isFighting)
         {
-            if(diretor.isFighting)
-            {
-                
-            }
+            movimentoPlayerHeart();
         }
       
         //Fazer as bolas de fogo da toriel caindo e dando dano
@@ -67,5 +64,14 @@ public class PlayerHeart : MonoBehaviour
         rigidbody.velocity = new Vector2(movimentoH * speed, rigidbody.velocity.y);
         rigidbody.velocity = new Vector2(rigidbody.velocity.x, movimentoV * speed);
     }
-    
+
+    public void Damage(int dano)
+    {
+        life -= dano;
+    }
+
+    public double GetPower()
+    {
+        return this.power;
+    }
 }
