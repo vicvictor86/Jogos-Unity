@@ -1,0 +1,1948 @@
+fileFormatVersion: 2
+guid: ef0cef9b1106ff94a9c7a7076b53e278
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4991685057065591454
+    second: Toriel_0
+  - first:
+      213: -647601989106965144
+    second: Toriel_1
+  - first:
+      213: 6278230054794167244
+    second: Toriel_2
+  - first:
+      213: 4415724195616147665
+    second: Toriel_3
+  - first:
+      213: 7856435419626143280
+    second: Toriel_4
+  - first:
+      213: -3173022143909239583
+    second: Toriel_5
+  - first:
+      213: -8747058951112064093
+    second: Toriel_6
+  - first:
+      213: 1958650207895164204
+    second: Toriel_7
+  - first:
+      213: 6855620918850811485
+    second: Toriel_8
+  - first:
+      213: 8874681096411688565
+    second: Toriel_9
+  - first:
+      213: 1258028298361501993
+    second: Toriel_10
+  - first:
+      213: 2487958318315819215
+    second: Toriel_11
+  - first:
+      213: -8812024638093567262
+    second: Toriel_12
+  - first:
+      213: 6824411543535428103
+    second: Toriel_13
+  - first:
+      213: 3626366447318313494
+    second: Toriel_14
+  - first:
+      213: 186457806442758550
+    second: Toriel_15
+  - first:
+      213: -5050075405320720506
+    second: Toriel_16
+  - first:
+      213: 5480806566955168676
+    second: Toriel_17
+  - first:
+      213: 3411405639910637608
+    second: Toriel_18
+  - first:
+      213: 8486424642575681396
+    second: Toriel_19
+  - first:
+      213: -401947326486656459
+    second: Toriel_20
+  - first:
+      213: 333212407948956706
+    second: Toriel_21
+  - first:
+      213: -6494282273606004809
+    second: Toriel_22
+  - first:
+      213: -8925830403204554837
+    second: Toriel_23
+  - first:
+      213: 5270753204184886844
+    second: Toriel_24
+  - first:
+      213: 620716176395616249
+    second: Toriel_25
+  - first:
+      213: -6572908001354494647
+    second: Toriel_26
+  - first:
+      213: -1824700746368338335
+    second: Toriel_27
+  - first:
+      213: 4400212535254613103
+    second: Toriel_28
+  - first:
+      213: 7026933008584150877
+    second: Toriel_29
+  - first:
+      213: 4977801834506574957
+    second: Toriel_30
+  - first:
+      213: 3899066937638881185
+    second: Toriel_31
+  - first:
+      213: 6975845809615709961
+    second: Toriel_32
+  - first:
+      213: 192278458748183804
+    second: Toriel_33
+  - first:
+      213: 1228178713255009178
+    second: Toriel_34
+  - first:
+      213: 3407145713625919039
+    second: Toriel_35
+  - first:
+      213: -2974346226928380514
+    second: Toriel_36
+  - first:
+      213: 5070612447748437631
+    second: Toriel_37
+  - first:
+      213: 1397262682967753003
+    second: Toriel_38
+  - first:
+      213: 1030846068316123031
+    second: Toriel_39
+  - first:
+      213: -2516250482356066309
+    second: Toriel_40
+  - first:
+      213: 4287007109426245360
+    second: Toriel_41
+  - first:
+      213: -710686901103872909
+    second: Toriel_42
+  - first:
+      213: -1649296153221161745
+    second: Toriel_43
+  - first:
+      213: 198194916692329311
+    second: Toriel_44
+  - first:
+      213: 6070190604398918284
+    second: Toriel_45
+  - first:
+      213: 6403166580476461767
+    second: Toriel_46
+  - first:
+      213: -8571741156463630925
+    second: Toriel_47
+  - first:
+      213: -4308809803301526909
+    second: Toriel_48
+  - first:
+      213: -5001516019007896575
+    second: Toriel_49
+  - first:
+      213: 6675224551095569241
+    second: Toriel_50
+  - first:
+      213: 8281567326834460942
+    second: Toriel_51
+  - first:
+      213: -3920247549106905624
+    second: Toriel_52
+  - first:
+      213: -8629915979752558109
+    second: Toriel_53
+  - first:
+      213: 914937660571837946
+    second: Toriel_54
+  - first:
+      213: -7521337880747285279
+    second: Toriel_55
+  - first:
+      213: -7590189932056421091
+    second: Toriel_56
+  - first:
+      213: -4381987249258944151
+    second: Toriel_57
+  - first:
+      213: -1054281561920250289
+    second: Toriel_58
+  - first:
+      213: -3356831508403494879
+    second: Toriel_59
+  - first:
+      213: 8595415619360889018
+    second: Toriel_60
+  - first:
+      213: 155063320097629519
+    second: Toriel_61
+  - first:
+      213: 8306766915991587056
+    second: Toriel_62
+  - first:
+      213: 4604443849920364672
+    second: Toriel_63
+  - first:
+      213: -4381690013180252035
+    second: Toriel_64
+  - first:
+      213: -4242401652650900188
+    second: Toriel_65
+  - first:
+      213: -8682707003538175739
+    second: Toriel_66
+  - first:
+      213: -6118327353566951160
+    second: Toriel_67
+  - first:
+      213: -4307579707519959012
+    second: Toriel_68
+  - first:
+      213: 3912971467771025035
+    second: Toriel_69
+  - first:
+      213: 7696030179922351501
+    second: Toriel_70
+  - first:
+      213: -2335309910566029181
+    second: Toriel_71
+  - first:
+      213: -8630365533174818701
+    second: Toriel_72
+  - first:
+      213: 6074542041885377012
+    second: Toriel_73
+  - first:
+      213: 4092001936762599666
+    second: Toriel_74
+  - first:
+      213: 515556600593105723
+    second: Toriel_75
+  - first:
+      213: 4593589080199556943
+    second: Toriel_76
+  - first:
+      213: 7169650662228312591
+    second: Toriel_77
+  - first:
+      213: -9005276321622295276
+    second: Toriel_78
+  - first:
+      213: -6144033573735246215
+    second: Toriel_79
+  - first:
+      213: 5079815893735367369
+    second: Toriel_80
+  - first:
+      213: -4503748895319292437
+    second: Toriel_81
+  - first:
+      213: 5753048807517595487
+    second: Toriel_82
+  - first:
+      213: 2220459870658662776
+    second: Toriel_83
+  - first:
+      213: 8520114013185546610
+    second: Toriel_84
+  - first:
+      213: 3521324202456591775
+    second: Toriel_85
+  - first:
+      213: -9066541059531341933
+    second: Toriel_86
+  - first:
+      213: 5701829795994996286
+    second: Toriel_87
+  - first:
+      213: -6837437771899129654
+    second: Toriel_88
+  - first:
+      213: 4250874889599677159
+    second: Toriel_89
+  - first:
+      213: 6365018255903457014
+    second: Toriel_90
+  - first:
+      213: -6482319855711707446
+    second: Toriel_91
+  - first:
+      213: 6858767965587328781
+    second: Toriel_92
+  - first:
+      213: 2503969720582115939
+    second: Toriel_93
+  - first:
+      213: 5787404883494513491
+    second: Toriel_94
+  - first:
+      213: -3004983864619545324
+    second: Toriel_95
+  - first:
+      213: 1401774886219161008
+    second: Toriel_96
+  - first:
+      213: 8958520700909028803
+    second: Toriel_97
+  - first:
+      213: -4273961067481144026
+    second: Toriel_98
+  - first:
+      213: -4022375364267426584
+    second: Toriel_99
+  - first:
+      213: -6438720774393097379
+    second: Toriel_100
+  - first:
+      213: 5114902948509750624
+    second: Toriel_101
+  - first:
+      213: -4472198410500990002
+    second: Toriel_102
+  - first:
+      213: 4172331765953863303
+    second: Toriel_103
+  - first:
+      213: 7009179126547289697
+    second: Toriel_104
+  - first:
+      213: 186442343271163243
+    second: Toriel_105
+  - first:
+      213: -2943276924921624833
+    second: Toriel_106
+  - first:
+      213: 1919370335218954426
+    second: Toriel_107
+  - first:
+      213: -4027576568819079734
+    second: Toriel_108
+  - first:
+      213: -1548243045864493518
+    second: Toriel_109
+  - first:
+      213: 3542788444370342306
+    second: Toriel_110
+  - first:
+      213: 4087441916981556237
+    second: Toriel_111
+  - first:
+      213: -8653311145667232297
+    second: Toriel_112
+  - first:
+      213: -3778328419825593298
+    second: Toriel_113
+  - first:
+      213: -2889032210207427389
+    second: Toriel_114
+  - first:
+      213: 1764071339665052962
+    second: Toriel_115
+  - first:
+      213: -2636834353149444402
+    second: Toriel_116
+  - first:
+      213: 3583797522326616192
+    second: Toriel_117
+  - first:
+      213: -3858532357829042316
+    second: Toriel_118
+  - first:
+      213: 6604197912243755355
+    second: Toriel_119
+  - first:
+      213: 559099028447118009
+    second: Toriel_120
+  - first:
+      213: -3833592479735437913
+    second: Toriel_121
+  - first:
+      213: 8830536072908170216
+    second: Toriel_122
+  - first:
+      213: 3657818347757072869
+    second: Toriel_123
+  - first:
+      213: 1805224863458027600
+    second: Toriel_124
+  - first:
+      213: -2446871524447524590
+    second: Toriel_125
+  - first:
+      213: -146798676062472785
+    second: Toriel_126
+  - first:
+      213: 4352939357309468533
+    second: Toriel_127
+  - first:
+      213: 4830068274651073451
+    second: Toriel_128
+  - first:
+      213: -5837239550443218734
+    second: Toriel_129
+  - first:
+      213: -8639968558546675851
+    second: Toriel_130
+  - first:
+      213: 6200041318525779187
+    second: Toriel_131
+  - first:
+      213: -7286553712457984338
+    second: Toriel_132
+  - first:
+      213: -2954582791307094825
+    second: Toriel_133
+  - first:
+      213: -4845407611951755885
+    second: Toriel_134
+  - first:
+      213: -2651383091107460396
+    second: Toriel_135
+  - first:
+      213: -6739808757554440380
+    second: Toriel_136
+  - first:
+      213: -7774666831786263679
+    second: Toriel_137
+  - first:
+      213: -8883739405275406164
+    second: Toriel_138
+  - first:
+      213: 2581314755894155891
+    second: Toriel_139
+  - first:
+      213: 9212405844367503617
+    second: Toriel_140
+  - first:
+      213: 2381734795029425017
+    second: Toriel_141
+  - first:
+      213: -2754533303756785742
+    second: Toriel_142
+  - first:
+      213: 8664229595656489841
+    second: Toriel_143
+  - first:
+      213: -335597933259022356
+    second: Toriel_144
+  - first:
+      213: 5153511735049192718
+    second: Toriel_145
+  - first:
+      213: 8876488164181659025
+    second: Toriel_146
+  - first:
+      213: 5000160000179641160
+    second: Toriel_147
+  - first:
+      213: -7547780060669471159
+    second: Toriel_148
+  - first:
+      213: 5516108916487942504
+    second: Toriel_149
+  - first:
+      213: 2710767947833949834
+    second: Toriel_150
+  - first:
+      213: -8858265048412767721
+    second: Toriel_151
+  - first:
+      213: -4741347866974550260
+    second: Toriel_152
+  - first:
+      213: -6624295403171232004
+    second: Toriel_153
+  - first:
+      213: -2263862764235064072
+    second: Toriel_154
+  - first:
+      213: -4153667608089471784
+    second: Toriel_155
+  - first:
+      213: -774084282272314299
+    second: Toriel_156
+  - first:
+      213: -8674987177387433235
+    second: Toriel_157
+  - first:
+      213: -4739481900018049562
+    second: Toriel_158
+  - first:
+      213: 6817207643280296594
+    second: Toriel_159
+  - first:
+      213: 1197974512339223961
+    second: Toriel_160
+  - first:
+      213: -5600928977688353437
+    second: Toriel_161
+  - first:
+      213: 5582725464441921150
+    second: Toriel_162
+  - first:
+      213: -7303029272708184536
+    second: Toriel_163
+  - first:
+      213: -819359347151100721
+    second: Toriel_164
+  - first:
+      213: -6836640298681115989
+    second: Toriel_165
+  - first:
+      213: -7279776351459771541
+    second: Toriel_166
+  - first:
+      213: -4943801394835890761
+    second: Toriel_167
+  - first:
+      213: -8521559985335446752
+    second: Toriel_168
+  - first:
+      213: 5867594671252490243
+    second: Toriel_169
+  - first:
+      213: 5540106189724159331
+    second: Toriel_170
+  - first:
+      213: -1057613307430924288
+    second: Toriel_171
+  - first:
+      213: -5482589395178076614
+    second: Toriel_172
+  - first:
+      213: -5563667688237278622
+    second: Toriel_173
+  - first:
+      213: -4593303474017900638
+    second: Toriel_174
+  - first:
+      213: 7113234424119748408
+    second: Toriel_175
+  - first:
+      213: 5109585740751493058
+    second: Toriel_176
+  - first:
+      213: 7980421688394364898
+    second: Toriel_177
+  - first:
+      213: -4450719145293278954
+    second: Toriel_178
+  - first:
+      213: 3935742796782532051
+    second: Toriel_179
+  - first:
+      213: 9017529543002732047
+    second: Toriel_180
+  - first:
+      213: 3834821952977179393
+    second: Toriel_181
+  - first:
+      213: 8973175369639126300
+    second: Toriel_182
+  - first:
+      213: 1127969994261730730
+    second: Toriel_183
+  - first:
+      213: 1074137461756785109
+    second: Toriel_184
+  - first:
+      213: -9075511967260392749
+    second: Toriel_185
+  - first:
+      213: 4888176225960837049
+    second: Toriel_186
+  - first:
+      213: 1669120802646659247
+    second: Toriel_187
+  - first:
+      213: 4256074311160013952
+    second: Toriel_188
+  - first:
+      213: 5200050618206979265
+    second: Toriel_189
+  - first:
+      213: -951509504215447721
+    second: Toriel_190
+  - first:
+      213: 1881091930263126739
+    second: Toriel_191
+  - first:
+      213: -6616552494990616270
+    second: Toriel_192
+  - first:
+      213: 3730760152205775144
+    second: Toriel_193
+  - first:
+      213: 6891352408084883800
+    second: Toriel_194
+  - first:
+      213: -345887795087089412
+    second: Toriel_195
+  - first:
+      213: -8480951472486030761
+    second: Toriel_196
+  - first:
+      213: -2435726693788971679
+    second: Toriel_197
+  - first:
+      213: -3416471518141120943
+    second: Toriel_198
+  - first:
+      213: 2307818045495361472
+    second: Toriel_199
+  - first:
+      213: 7652988162246856557
+    second: Toriel_200
+  - first:
+      213: 2382358420691981756
+    second: Toriel_201
+  - first:
+      213: -414303703949044995
+    second: Toriel_202
+  - first:
+      213: -8758639553529244451
+    second: Toriel_203
+  - first:
+      213: 7924778620803082103
+    second: Toriel_204
+  - first:
+      213: 6322517458325172723
+    second: Toriel_205
+  - first:
+      213: -8788279054553270300
+    second: Toriel_206
+  - first:
+      213: 1369975984671331997
+    second: Toriel_207
+  - first:
+      213: 4167644385095831944
+    second: Toriel_208
+  - first:
+      213: -6524333155450078922
+    second: Toriel_209
+  - first:
+      213: -6404296019808136344
+    second: Toriel_210
+  - first:
+      213: -1686931992024512543
+    second: Toriel_211
+  - first:
+      213: -4612552751143616593
+    second: Toriel_212
+  - first:
+      213: -5919549715298496697
+    second: Toriel_213
+  - first:
+      213: 6275034740501873808
+    second: Toriel_214
+  - first:
+      213: -5106442650646761232
+    second: Toriel_215
+  - first:
+      213: 558787860783699791
+    second: Toriel_216
+  - first:
+      213: 4627791608170603684
+    second: Toriel_217
+  - first:
+      213: 427011328139124068
+    second: Toriel_218
+  - first:
+      213: -3747353487054442382
+    second: Toriel_219
+  - first:
+      213: -2691266330596587623
+    second: Toriel_220
+  - first:
+      213: -276166252399518488
+    second: Toriel_221
+  - first:
+      213: -5804671214001853073
+    second: Toriel_222
+  - first:
+      213: 4765602570531846099
+    second: Toriel_223
+  - first:
+      213: -6672958038656987518
+    second: Toriel_224
+  - first:
+      213: 1777999612592662902
+    second: Toriel_225
+  - first:
+      213: 6912853379701398758
+    second: Toriel_226
+  - first:
+      213: -2443759728598514247
+    second: Toriel_227
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Toriel_34
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 868
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9bd244580e5b0110800000000000000
+      internalID: 1228178713255009178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_35
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 868
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3eeaa689fc984f20800000000000000
+      internalID: 3407145713625919039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_36
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 868
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9519e88ddff8b6d0800000000000000
+      internalID: -2974346226928380514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_37
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 868
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7638bde72f6e5640800000000000000
+      internalID: 5070612447748437631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_38
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 868
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b21c334d103146310800000000000000
+      internalID: 1397262682967753003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_39
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 868
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f2718990d4e4e00800000000000000
+      internalID: 1030846068316123031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_40
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 868
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7e249948b741dd0800000000000000
+      internalID: -2516250482356066309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_41
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 868
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0feece2a0428e7b30800000000000000
+      internalID: 4287007109426245360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_42
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 868
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3743e2167022326f0800000000000000
+      internalID: -710686901103872909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_43
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 868
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec95d113e58c19e0800000000000000
+      internalID: -1649296153221161745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_44
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 868
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f530cb50a3120c200800000000000000
+      internalID: 198194916692329311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_45
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 868
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a7c168136ad3450800000000000000
+      internalID: 6070190604398918284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_46
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 868
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2c3fa541e9cd850800000000000000
+      internalID: 6403166580476461767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_47
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 868
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5a36e45de0b0980800000000000000
+      internalID: -8571741156463630925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_48
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 868
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382ed7d10580434c0800000000000000
+      internalID: -4308809803301526909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_49
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 868
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104cb9c0eab079ab0800000000000000
+      internalID: -5001516019007896575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_65
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 751
+        width: 73
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42586339c26ff15c0800000000000000
+      internalID: -4242401652650900188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_66
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 816
+        width: 50
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5098f45bbf3d08780800000000000000
+      internalID: -8682707003538175739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_67
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 800
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809061f20b5571ba0800000000000000
+      internalID: -6118327353566951160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_68
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 800
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10879b14176834c0800000000000000
+      internalID: -4307579707519959012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_69
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 800
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b861bb071daad4630800000000000000
+      internalID: 3912971467771025035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_70
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 800
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8515fe5caacdca60800000000000000
+      internalID: 7696030179922351501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_71
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 800
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38833446200579fd0800000000000000
+      internalID: -2335309910566029181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_72
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 800
+        width: 54
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3781751f548ca3880800000000000000
+      internalID: -8630365533174818701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_73
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 800
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f101c38dcb1d4450800000000000000
+      internalID: 6074542041885377012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_74
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 800
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8f1f4c416b9c830800000000000000
+      internalID: 4092001936762599666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_80
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 618
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2ea7e24a12f7640800000000000000
+      internalID: 5079815893735367369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_81
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 618
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be58fe8dd387f71c0800000000000000
+      internalID: -4503748895319292437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_82
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 618
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f572293d86fe6df40800000000000000
+      internalID: 5753048807517595487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_83
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 618
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8719e94ec78a0de10800000000000000
+      internalID: 2220459870658662776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_84
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 616
+        width: 76
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27990c1bd868d3670800000000000000
+      internalID: 8520114013185546610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_85
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 616
+        width: 76
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d296294b14ed030800000000000000
+      internalID: 3521324202456591775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_86
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 496
+        width: 72
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ff32561fc2d2280800000000000000
+      internalID: -9066541059531341933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_87
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 496
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e05086df7f02f40800000000000000
+      internalID: 5701829795994996286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_88
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 496
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac03d10a29a8c11a0800000000000000
+      internalID: -6837437771899129654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_89
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 496
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e27733a0342efa30800000000000000
+      internalID: 4250874889599677159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_90
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 496
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe70046166155850800000000000000
+      internalID: 6365018255903457014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_91
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 496
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace97df9f6c2a06a0800000000000000
+      internalID: -6482319855711707446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_92
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 373
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f49a9102d3f2f50800000000000000
+      internalID: 6858767965587328781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_93
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 373
+        width: 57
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36291abb133efb220800000000000000
+      internalID: 2503969720582115939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_94
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 373
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b2d0c141ef05050800000000000000
+      internalID: 5787404883494513491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_95
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 373
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d4291a8172c46d0800000000000000
+      internalID: -3004983864619545324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_96
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 373
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd182405da147310800000000000000
+      internalID: 1401774886219161008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_97
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 373
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c58aaafc1f035c70800000000000000
+      internalID: 8958520700909028803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_98
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 250
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625efe4bd07dfa4c0800000000000000
+      internalID: -4273961067481144026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_99
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 250
+        width: 59
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ecbe8beae6ad28c0800000000000000
+      internalID: -4022375364267426584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_108
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 320
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac52add137c2b18c0800000000000000
+      internalID: -4027576568819079734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_111
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 300
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d043abd64c289b830800000000000000
+      internalID: 4087441916981556237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_136
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 130
+        width: 66
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44796efd4a36772a0800000000000000
+      internalID: -6739808757554440380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_137
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 130
+        width: 66
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b3e5c55b5da1490800000000000000
+      internalID: -7774666831786263679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_138
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 130
+        width: 66
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca06b67341e96b480800000000000000
+      internalID: -8883739405275406164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_139
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 130
+        width: 66
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a9b86181ca2d320800000000000000
+      internalID: 2581314755894155891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_149
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 13
+        width: 69
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861f0ad75d72d8c40800000000000000
+      internalID: 5516108916487942504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Toriel_150
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 13
+        width: 88
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e382716159e9520800000000000000
+      internalID: 2710767947833949834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

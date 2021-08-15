@@ -1,0 +1,2320 @@
+fileFormatVersion: 2
+guid: fdc005db128e88c438f134f19843ef64
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5612329194994010834
+    second: Attack Effects_0
+  - first:
+      213: -6488513295755513991
+    second: Attack Effects_1
+  - first:
+      213: 933931399701765374
+    second: Attack Effects_2
+  - first:
+      213: -2002479898196347716
+    second: Attack Effects_3
+  - first:
+      213: 6349975560541559442
+    second: Attack Effects_4
+  - first:
+      213: 8896005046112049754
+    second: Attack Effects_5
+  - first:
+      213: -8461361988175073732
+    second: Attack Effects_6
+  - first:
+      213: 3475222897268522400
+    second: Attack Effects_7
+  - first:
+      213: -1042792538331377575
+    second: Attack Effects_8
+  - first:
+      213: 4512340476370291604
+    second: Attack Effects_9
+  - first:
+      213: 5964332225731589523
+    second: Attack Effects_10
+  - first:
+      213: 8685782723324955477
+    second: Attack Effects_11
+  - first:
+      213: 2147647343607140083
+    second: Attack Effects_12
+  - first:
+      213: 7313978939286719777
+    second: Attack Effects_13
+  - first:
+      213: 3692380106754293908
+    second: Attack Effects_14
+  - first:
+      213: 2912905882326013520
+    second: Attack Effects_15
+  - first:
+      213: -858224432074496897
+    second: Attack Effects_16
+  - first:
+      213: -3675707072554892723
+    second: Attack Effects_17
+  - first:
+      213: 5769793046514163342
+    second: Attack Effects_18
+  - first:
+      213: 444950692951425945
+    second: Attack Effects_19
+  - first:
+      213: -9080032673385283032
+    second: Attack Effects_20
+  - first:
+      213: 2931435876020806518
+    second: Attack Effects_21
+  - first:
+      213: 7392158909346532822
+    second: Attack Effects_22
+  - first:
+      213: -7652494278909133309
+    second: Attack Effects_23
+  - first:
+      213: 5178634882477242248
+    second: Attack Effects_24
+  - first:
+      213: 2707379611338364193
+    second: Attack Effects_25
+  - first:
+      213: 4780098248886380583
+    second: Attack Effects_26
+  - first:
+      213: 4191355315965751972
+    second: Attack Effects_27
+  - first:
+      213: -989944295937180144
+    second: Attack Effects_28
+  - first:
+      213: -6378647107410974541
+    second: Attack Effects_29
+  - first:
+      213: -2308272085503065645
+    second: Attack Effects_30
+  - first:
+      213: -9103794768802327218
+    second: Attack Effects_31
+  - first:
+      213: 6195568109653335926
+    second: Attack Effects_32
+  - first:
+      213: -8414673650464190314
+    second: Attack Effects_33
+  - first:
+      213: -7167122222120511727
+    second: Attack Effects_34
+  - first:
+      213: 3989860973287514912
+    second: Attack Effects_35
+  - first:
+      213: 2889502155798813035
+    second: Attack Effects_36
+  - first:
+      213: 200712541505065855
+    second: Attack Effects_37
+  - first:
+      213: -4405412344445346582
+    second: Attack Effects_38
+  - first:
+      213: 6909051401131036243
+    second: Attack Effects_39
+  - first:
+      213: 1242448437477965854
+    second: Attack Effects_40
+  - first:
+      213: 4777373813917970640
+    second: Attack Effects_41
+  - first:
+      213: 2276092238936266144
+    second: Attack Effects_42
+  - first:
+      213: 4809220723910003956
+    second: Attack Effects_43
+  - first:
+      213: 5111007436604031443
+    second: Attack Effects_44
+  - first:
+      213: -1361006794907909194
+    second: Attack Effects_45
+  - first:
+      213: -4013717493804358354
+    second: Attack Effects_46
+  - first:
+      213: -4521564387142472111
+    second: Attack Effects_47
+  - first:
+      213: -6918589899244041343
+    second: Attack Effects_48
+  - first:
+      213: -3518706964921633943
+    second: Attack Effects_49
+  - first:
+      213: 7600447015584516553
+    second: Attack Effects_50
+  - first:
+      213: 3879324061791512984
+    second: Attack Effects_51
+  - first:
+      213: 8435454829608420589
+    second: Attack Effects_52
+  - first:
+      213: -7065242266821801138
+    second: Attack Effects_53
+  - first:
+      213: -5313243423473457517
+    second: Attack Effects_54
+  - first:
+      213: -3226334973734339800
+    second: Attack Effects_55
+  - first:
+      213: -7223114830240887842
+    second: Attack Effects_56
+  - first:
+      213: 2846252472475766101
+    second: Attack Effects_57
+  - first:
+      213: -2142648068720567245
+    second: Attack Effects_58
+  - first:
+      213: -6097166916104097028
+    second: Attack Effects_59
+  - first:
+      213: 4375913096671901702
+    second: Attack Effects_60
+  - first:
+      213: -1237137774402427452
+    second: Attack Effects_61
+  - first:
+      213: 8376494988082374723
+    second: Attack Effects_62
+  - first:
+      213: 6858947605084001907
+    second: Attack Effects_63
+  - first:
+      213: -3534157544461902502
+    second: Attack Effects_64
+  - first:
+      213: 2032062937721696733
+    second: Attack Effects_65
+  - first:
+      213: -1555938061008557038
+    second: Attack Effects_66
+  - first:
+      213: 5290229510239075839
+    second: Attack Effects_67
+  - first:
+      213: 8022099907819774086
+    second: Attack Effects_68
+  - first:
+      213: -3780552155375293694
+    second: Attack Effects_69
+  - first:
+      213: -3195612189576885961
+    second: Attack Effects_70
+  - first:
+      213: 2450640967672414062
+    second: Attack Effects_71
+  - first:
+      213: -2718606776264635148
+    second: Attack Effects_72
+  - first:
+      213: -511432592344793433
+    second: Attack Effects_73
+  - first:
+      213: 2255516839629611143
+    second: Attack Effects_74
+  - first:
+      213: -3968267359973926378
+    second: Attack Effects_75
+  - first:
+      213: 7726156016112149269
+    second: Attack Effects_76
+  - first:
+      213: -163425418491692657
+    second: Attack Effects_77
+  - first:
+      213: -5213727213155673862
+    second: Attack Effects_78
+  - first:
+      213: -48606699253060285
+    second: Attack Effects_79
+  - first:
+      213: -399252536070447487
+    second: Attack Effects_80
+  - first:
+      213: -2530357845846147308
+    second: Attack Effects_81
+  - first:
+      213: -5177853655137242096
+    second: Attack Effects_82
+  - first:
+      213: -8774028814504618268
+    second: Attack Effects_83
+  - first:
+      213: -5422566315434056717
+    second: Attack Effects_84
+  - first:
+      213: 5517745027403799531
+    second: Attack Effects_85
+  - first:
+      213: -5862230166106407614
+    second: Attack Effects_86
+  - first:
+      213: -161953073199148972
+    second: Attack Effects_87
+  - first:
+      213: 4499029256162087979
+    second: Attack Effects_88
+  - first:
+      213: 1456199455118617214
+    second: Attack Effects_89
+  - first:
+      213: -671163600265895948
+    second: Attack Effects_90
+  - first:
+      213: 7229774305266271359
+    second: Attack Effects_91
+  - first:
+      213: -512056052700332361
+    second: Attack Effects_92
+  - first:
+      213: 1947795264531398804
+    second: Attack Effects_93
+  - first:
+      213: 924857184068901837
+    second: Attack Effects_94
+  - first:
+      213: 1051870042547204168
+    second: Attack Effects_95
+  - first:
+      213: -7237449439989113582
+    second: Attack Effects_96
+  - first:
+      213: 7637512598056668919
+    second: Attack Effects_97
+  - first:
+      213: -8642024647829072616
+    second: Attack Effects_98
+  - first:
+      213: 3159511476776652464
+    second: Attack Effects_99
+  - first:
+      213: 5881024467655725464
+    second: Attack Effects_100
+  - first:
+      213: -495261252781600089
+    second: Attack Effects_101
+  - first:
+      213: -2037957503399018271
+    second: Attack Effects_102
+  - first:
+      213: 588163172938440712
+    second: Attack Effects_103
+  - first:
+      213: 7794863579502556753
+    second: Attack Effects_104
+  - first:
+      213: -3782209307226435917
+    second: Attack Effects_105
+  - first:
+      213: -4062968124068340988
+    second: Attack Effects_106
+  - first:
+      213: -6868029769626458848
+    second: Attack Effects_107
+  - first:
+      213: 3658963546919786681
+    second: Attack Effects_108
+  - first:
+      213: 2868477404520874862
+    second: Attack Effects_109
+  - first:
+      213: -817894603228124018
+    second: Attack Effects_110
+  - first:
+      213: 2062329022139913295
+    second: Attack Effects_111
+  - first:
+      213: -2356976482015938537
+    second: Attack Effects_112
+  - first:
+      213: 1724434692583504538
+    second: Attack Effects_113
+  - first:
+      213: -6095296811453032193
+    second: Attack Effects_114
+  - first:
+      213: -7451464768107070003
+    second: Attack Effects_115
+  - first:
+      213: 511410318023220463
+    second: Attack Effects_116
+  - first:
+      213: -4723270669673050157
+    second: Attack Effects_117
+  - first:
+      213: 7571719136646312421
+    second: Attack Effects_118
+  - first:
+      213: 1204282946828416629
+    second: Attack Effects_119
+  - first:
+      213: 7641513134753698609
+    second: Attack Effects_120
+  - first:
+      213: -4160902311572006274
+    second: Attack Effects_121
+  - first:
+      213: -4644926336756744443
+    second: Attack Effects_122
+  - first:
+      213: 4400640891859877738
+    second: Attack Effects_123
+  - first:
+      213: -4265750103295029150
+    second: Attack Effects_124
+  - first:
+      213: -7002066592177675509
+    second: Attack Effects_125
+  - first:
+      213: -8371371892236276832
+    second: Attack Effects_126
+  - first:
+      213: -4266835843542035474
+    second: Attack Effects_127
+  - first:
+      213: 896073035137572003
+    second: Attack Effects_128
+  - first:
+      213: 3391199582627039302
+    second: Attack Effects_129
+  - first:
+      213: -8773514437053902855
+    second: Attack Effects_130
+  - first:
+      213: 9353353069297879
+    second: Attack Effects_131
+  - first:
+      213: 1243696188369070388
+    second: Attack Effects_132
+  - first:
+      213: 6778628627320129562
+    second: Attack Effects_133
+  - first:
+      213: 4236414493924042780
+    second: Attack Effects_134
+  - first:
+      213: -6706365830027331748
+    second: Attack Effects_135
+  - first:
+      213: 4357698683002679031
+    second: Attack Effects_136
+  - first:
+      213: 6177583455846938685
+    second: Attack Effects_137
+  - first:
+      213: -2704649482193840267
+    second: Attack Effects_138
+  - first:
+      213: 2884514033800167328
+    second: Attack Effects_139
+  - first:
+      213: 1770172743273322538
+    second: Attack Effects_140
+  - first:
+      213: 3156085483590574120
+    second: Attack Effects_141
+  - first:
+      213: 2131818248702398683
+    second: Attack Effects_142
+  - first:
+      213: -5696332876748351132
+    second: Attack Effects_143
+  - first:
+      213: -3884903024936033858
+    second: Attack Effects_144
+  - first:
+      213: 6581713911146965229
+    second: Attack Effects_145
+  - first:
+      213: -8450977607323476290
+    second: Attack Effects_146
+  - first:
+      213: -3328214518968341145
+    second: Attack Effects_147
+  - first:
+      213: -174955628202872261
+    second: Attack Effects_148
+  - first:
+      213: 9042978286499920173
+    second: Attack Effects_149
+  - first:
+      213: -809290099263350786
+    second: Attack Effects_150
+  - first:
+      213: -880406911083889695
+    second: Attack Effects_151
+  - first:
+      213: 8808617779475146580
+    second: Attack Effects_152
+  - first:
+      213: 809610342032511646
+    second: Attack Effects_153
+  - first:
+      213: 2182428839940613374
+    second: Attack Effects_154
+  - first:
+      213: -2014882512084013625
+    second: Attack Effects_155
+  - first:
+      213: 7230679846563152435
+    second: Attack Effects_156
+  - first:
+      213: -5870465947854648273
+    second: Attack Effects_157
+  - first:
+      213: 2680109320703120096
+    second: Attack Effects_158
+  - first:
+      213: -4666884136777389812
+    second: Attack Effects_159
+  - first:
+      213: 3771192581308856305
+    second: Attack Effects_160
+  - first:
+      213: -281695599800174356
+    second: Attack Effects_161
+  - first:
+      213: -4026945310203146834
+    second: Attack Effects_162
+  - first:
+      213: -6992867306078731599
+    second: Attack Effects_163
+  - first:
+      213: -3342355483616973403
+    second: Attack Effects_164
+  - first:
+      213: -77000574027521237
+    second: Attack Effects_165
+  - first:
+      213: 4404166108906417420
+    second: Attack Effects_166
+  - first:
+      213: -3029145754261912944
+    second: Attack Effects_167
+  - first:
+      213: -938052925020085391
+    second: Attack Effects_168
+  - first:
+      213: 8082228549698872156
+    second: Attack Effects_169
+  - first:
+      213: -6473584455872623004
+    second: Attack Effects_170
+  - first:
+      213: 3840993904366114607
+    second: Attack Effects_171
+  - first:
+      213: -7775198772772229298
+    second: Attack Effects_172
+  - first:
+      213: 2931491274757857241
+    second: Attack Effects_173
+  - first:
+      213: -5222846777198298795
+    second: Attack Effects_174
+  - first:
+      213: 9133335628063073541
+    second: Attack Effects_175
+  - first:
+      213: -7518900892374953145
+    second: Attack Effects_176
+  - first:
+      213: -8320974584104021292
+    second: Attack Effects_177
+  - first:
+      213: 6584790241367870390
+    second: Attack Effects_178
+  - first:
+      213: 2082499719965358059
+    second: Attack Effects_179
+  - first:
+      213: -7152729947700562250
+    second: Attack Effects_180
+  - first:
+      213: -8130552528414791132
+    second: Attack Effects_181
+  - first:
+      213: -815218184020128013
+    second: Attack Effects_182
+  - first:
+      213: 8786264194930519017
+    second: Attack Effects_183
+  - first:
+      213: -5296841068662435321
+    second: Attack Effects_184
+  - first:
+      213: 9103624252803435389
+    second: Attack Effects_185
+  - first:
+      213: -7144545449954543263
+    second: Attack Effects_186
+  - first:
+      213: -2737775163389262770
+    second: Attack Effects_187
+  - first:
+      213: 648416340261014743
+    second: Attack Effects_188
+  - first:
+      213: -1732673996554163393
+    second: Attack Effects_189
+  - first:
+      213: 6777349782820896682
+    second: Attack Effects_190
+  - first:
+      213: -6152939065604212411
+    second: Attack Effects_191
+  - first:
+      213: 1695492058294633620
+    second: Attack Effects_192
+  - first:
+      213: 2617748750574252244
+    second: Attack Effects_193
+  - first:
+      213: 6395880728242357436
+    second: Attack Effects_194
+  - first:
+      213: 5355845962327794046
+    second: Attack Effects_195
+  - first:
+      213: 4350386285683171821
+    second: Attack Effects_196
+  - first:
+      213: -7911183066114038094
+    second: Attack Effects_197
+  - first:
+      213: -6093341446809067579
+    second: Attack Effects_198
+  - first:
+      213: 4184483181970515953
+    second: Attack Effects_199
+  - first:
+      213: 5786006480808304870
+    second: Attack Effects_200
+  - first:
+      213: 4697185904438812560
+    second: Attack Effects_201
+  - first:
+      213: 4795755154459462914
+    second: Attack Effects_202
+  - first:
+      213: -9045293436890112745
+    second: Attack Effects_203
+  - first:
+      213: 14539576888931662
+    second: Attack Effects_204
+  - first:
+      213: 4150789302931326784
+    second: Attack Effects_205
+  - first:
+      213: 173582170775264679
+    second: Attack Effects_206
+  - first:
+      213: -8373830374425534256
+    second: Attack Effects_207
+  - first:
+      213: 3379307205877619168
+    second: Attack Effects_208
+  - first:
+      213: -5806779670358708717
+    second: Attack Effects_209
+  - first:
+      213: -2951846193218751841
+    second: Attack Effects_210
+  - first:
+      213: -9219430180634854527
+    second: Attack Effects_211
+  - first:
+      213: -4133925394529062582
+    second: Attack Effects_212
+  - first:
+      213: -740968485954253114
+    second: Attack Effects_213
+  - first:
+      213: -7833711404954865440
+    second: Attack Effects_214
+  - first:
+      213: 2248034729193293520
+    second: Attack Effects_215
+  - first:
+      213: 3602072864397652908
+    second: Attack Effects_216
+  - first:
+      213: 1282012959854478738
+    second: Attack Effects_217
+  - first:
+      213: 177130872563771984
+    second: Attack Effects_218
+  - first:
+      213: 8111493738664157913
+    second: Attack Effects_219
+  - first:
+      213: -5241782927430988239
+    second: Attack Effects_220
+  - first:
+      213: 3046506296173718952
+    second: Attack Effects_221
+  - first:
+      213: -6857953368479515033
+    second: Attack Effects_222
+  - first:
+      213: 6924926993485496564
+    second: Attack Effects_223
+  - first:
+      213: 2587430835159459129
+    second: Attack Effects_224
+  - first:
+      213: -8554284141956715267
+    second: Attack Effects_225
+  - first:
+      213: 429188064472642305
+    second: Attack Effects_226
+  - first:
+      213: -3818097484709052201
+    second: Attack Effects_227
+  - first:
+      213: -6825758525628165355
+    second: Attack Effects_228
+  - first:
+      213: -1642363575546109803
+    second: Attack Effects_229
+  - first:
+      213: 4143234577036814674
+    second: Attack Effects_230
+  - first:
+      213: -233332059275415505
+    second: Attack Effects_231
+  - first:
+      213: 4056174341899618624
+    second: Attack Effects_232
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Attack Effects_22
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 269
+        width: 546
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ddc6dadc59369660800000000000000
+      internalID: 7392158909346532822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_23
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 269
+        width: 546
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e79eb7ff0ecc590800000000000000
+      internalID: -7652494278909133309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_24
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 269
+        width: 14
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887b08fecf43ed740800000000000000
+      internalID: 5178634882477242248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_25
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 269
+        width: 14
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12555f5896b829520800000000000000
+      internalID: 2707379611338364193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_26
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 269
+        width: 14
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728e6540802565240800000000000000
+      internalID: 4780098248886380583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_27
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 269
+        width: 14
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2759ff37faa2a30800000000000000
+      internalID: 4191355315965751972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_28
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 269
+        width: 14
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e7d3568e20342f0800000000000000
+      internalID: -989944295937180144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_29
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 269
+        width: 14
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b82237504e7a77a0800000000000000
+      internalID: -6378647107410974541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_30
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 269
+        width: 14
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1c3aa94ce57ffd0800000000000000
+      internalID: -2308272085503065645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_31
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 269
+        width: 14
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e455a7944e2d8a180800000000000000
+      internalID: -9103794768802327218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_51
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 225
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89965bf3ea026d530800000000000000
+      internalID: 3879324061791512984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_95
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 208
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840b6eb0b3ef89e00800000000000000
+      internalID: 1051870042547204168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_96
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 192
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d5999741a6f8b90800000000000000
+      internalID: -7237449439989113582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_97
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 172
+        width: 8
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe0dbe1e35edf960800000000000000
+      internalID: 7637512598056668919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_98
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 150
+        width: 10
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8155af5ce5c511880800000000000000
+      internalID: -8642024647829072616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_99
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 212
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0beca05c2f6d8db20800000000000000
+      internalID: 3159511476776652464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_100
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 212
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891100628989d9150800000000000000
+      internalID: 5881024467655725464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_101
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 176
+        width: 58
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a210fcb38a7029f0800000000000000
+      internalID: -495261252781600089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_102
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 176
+        width: 58
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e04f8eb278b7b3e0800000000000000
+      internalID: -2037957503399018271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_103
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 134
+        width: 76
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80066f02a43992800800000000000000
+      internalID: 588163172938440712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_104
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 96
+        width: 98
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15631e8602bec2c60800000000000000
+      internalID: 7794863579502556753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_105
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 96
+        width: 98
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be87909ca4e28bc0800000000000000
+      internalID: -3782209307226435917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_106
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 128
+        width: 48
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40bdb2784007d97c0800000000000000
+      internalID: -4062968124068340988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_107
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 128
+        width: 48
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0256b9a105bdfa0a0800000000000000
+      internalID: -6868029769626458848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_108
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 94
+        width: 92
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8d14cb5ff37c230800000000000000
+      internalID: 3658963546919786681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_109
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 94
+        width: 92
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6383b66001eec720800000000000000
+      internalID: 2868477404520874862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_110
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 69
+        width: 100
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ce0e6113146a4f0800000000000000
+      internalID: -817894603228124018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_111
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 166
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44d0a6a15dde9c10800000000000000
+      internalID: 2062329022139913295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_112
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 172
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7187d7d90665a4fd0800000000000000
+      internalID: -2356976482015938537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_113
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 172
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9abcc9673c6ee710800000000000000
+      internalID: 1724434692583504538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_114
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 172
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff855c028d7296ba0800000000000000
+      internalID: -6095296811453032193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_115
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 172
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcdb3a0e544179890800000000000000
+      internalID: -7451464768107070003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_116
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 174
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec5e3489f4e81700800000000000000
+      internalID: 511410318023220463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_117
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 174
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dfcd14d952937eb0800000000000000
+      internalID: -4723270669673050157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_118
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 182
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1b4d62076241960800000000000000
+      internalID: 7571719136646312421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_119
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 202
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576b4c6a5f876b010800000000000000
+      internalID: 1204282946828416629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_120
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 174
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133d977a5bb1c0a60800000000000000
+      internalID: 7641513134753698609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_121
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 172
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a16ad94618146c0800000000000000
+      internalID: -4160902311572006274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_122
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 132
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ff1c94b18e98fb0800000000000000
+      internalID: -4644926336756744443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_144
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 9
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1e8db284d061ac0800000000000000
+      internalID: -3884903024936033858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_145
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 9
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de869274ee1f65b50800000000000000
+      internalID: 6581713911146965229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_146
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 9
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe14be24a818ba80800000000000000
+      internalID: -8450977607323476290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_147
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 9
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d2894578ecfc1d0800000000000000
+      internalID: -3328214518968341145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_148
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 9
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32338978ce629df0800000000000000
+      internalID: -174955628202872261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_149
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 9
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29f56ef6dc1f7d70800000000000000
+      internalID: 9042978286499920173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_150
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 9
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7da2941f2d4c4f0800000000000000
+      internalID: -809290099263350786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_151
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 9
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ebbb07349a28c3f0800000000000000
+      internalID: -880406911083889695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_152
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 9
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4576ecb433f7e3a70800000000000000
+      internalID: 8808617779475146580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_153
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 9
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92945b01505c3b00800000000000000
+      internalID: 809610342032511646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_154
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 9
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef46a38877b894e10800000000000000
+      internalID: 2182428839940613374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_155
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 9
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cde513d703b904e0800000000000000
+      internalID: -2014882512084013625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_156
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 9
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33209fab209885460800000000000000
+      internalID: 7230679846563152435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_157
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 9
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2cc810d25ae78ea0800000000000000
+      internalID: -5870465947854648273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_158
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 9
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e219b33a39a13520800000000000000
+      internalID: 2680109320703120096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_159
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 9
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c096a739a95eb3fb0800000000000000
+      internalID: -4666884136777389812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_160
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 9
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7b08c0ca7f55430800000000000000
+      internalID: 3771192581308856305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_161
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 9
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8be1f2857371cf0800000000000000
+      internalID: -281695599800174356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_162
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 9
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead8a67739a6d18c0800000000000000
+      internalID: -4026945310203146834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_163
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 9
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b20cb32c3854fe90800000000000000
+      internalID: -6992867306078731599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_164
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 9
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad6eed65619d91d0800000000000000
+      internalID: -3342355483616973403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_165
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 9
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23a699c2607eeef0800000000000000
+      internalID: -77000574027521237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_166
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 9
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d6e25edbdbe1d30800000000000000
+      internalID: 4404166108906417420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_167
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 9
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09206505cff46f5d0800000000000000
+      internalID: -3029145754261912944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_183
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 18
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb2191dbb41fe970800000000000000
+      internalID: 8786264194930519017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_188
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 18
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc01dbd933aff800800000000000000
+      internalID: 648416340261014743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_193
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 18
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d073358e9c145420800000000000000
+      internalID: 2617748750574252244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_194
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 18
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb407a0b2abb2c850800000000000000
+      internalID: 6395880728242357436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_199
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 18
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7e2fd9845421a30800000000000000
+      internalID: 4184483181970515953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_208
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 18
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9d049dff5b5ee20800000000000000
+      internalID: 3379307205877619168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_209
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 18
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e2f4bc7ac2a6fa0800000000000000
+      internalID: -5806779670358708717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack Effects_225
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 18
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfca9ea35e3194980800000000000000
+      internalID: -8554284141956715267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

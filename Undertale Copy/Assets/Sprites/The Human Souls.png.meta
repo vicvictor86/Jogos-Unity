@@ -1,0 +1,2140 @@
+fileFormatVersion: 2
+guid: d2de907d6abbb044daf91e95aa339330
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8428007911308044831
+    second: The Human Souls_0
+  - first:
+      213: 5054020647419923738
+    second: The Human Souls_1
+  - first:
+      213: -6584627726574532294
+    second: The Human Souls_2
+  - first:
+      213: 7959807980461904329
+    second: The Human Souls_3
+  - first:
+      213: -3131222004946293018
+    second: The Human Souls_4
+  - first:
+      213: 1376596907184240241
+    second: The Human Souls_5
+  - first:
+      213: 8292753921067632285
+    second: The Human Souls_6
+  - first:
+      213: -5727181079063673551
+    second: The Human Souls_7
+  - first:
+      213: -671738750033065813
+    second: The Human Souls_8
+  - first:
+      213: 8570705502297855743
+    second: The Human Souls_9
+  - first:
+      213: 1083496503572388549
+    second: The Human Souls_10
+  - first:
+      213: 8228412079006601023
+    second: The Human Souls_11
+  - first:
+      213: -1369208974623953221
+    second: The Human Souls_12
+  - first:
+      213: 6391616587903755869
+    second: The Human Souls_13
+  - first:
+      213: 5023630759858516804
+    second: The Human Souls_14
+  - first:
+      213: -2233674402694186349
+    second: The Human Souls_15
+  - first:
+      213: -5995161017528291316
+    second: The Human Souls_16
+  - first:
+      213: 6465852604947476451
+    second: The Human Souls_17
+  - first:
+      213: 1504849861269045667
+    second: The Human Souls_18
+  - first:
+      213: 152717543852140235
+    second: The Human Souls_19
+  - first:
+      213: 9123892389283813253
+    second: The Human Souls_20
+  - first:
+      213: 3494785040331211691
+    second: The Human Souls_21
+  - first:
+      213: -1774371059150561983
+    second: The Human Souls_22
+  - first:
+      213: -5982045049749416989
+    second: The Human Souls_23
+  - first:
+      213: 8721716364657675757
+    second: The Human Souls_24
+  - first:
+      213: -6577709118303957033
+    second: The Human Souls_25
+  - first:
+      213: 1180133909253617309
+    second: The Human Souls_26
+  - first:
+      213: -653906292198432854
+    second: The Human Souls_27
+  - first:
+      213: -2295218064817814634
+    second: The Human Souls_28
+  - first:
+      213: -3999672017053746484
+    second: The Human Souls_29
+  - first:
+      213: 3371200623263593889
+    second: The Human Souls_30
+  - first:
+      213: 6143763697612732619
+    second: The Human Souls_31
+  - first:
+      213: -9039739478043148684
+    second: The Human Souls_32
+  - first:
+      213: -1969648709400638241
+    second: The Human Souls_33
+  - first:
+      213: -3536811888450427551
+    second: The Human Souls_34
+  - first:
+      213: 8426003873436296661
+    second: The Human Souls_35
+  - first:
+      213: 1374006927562916467
+    second: The Human Souls_36
+  - first:
+      213: -693599894731085703
+    second: The Human Souls_37
+  - first:
+      213: 5732805353314332273
+    second: The Human Souls_38
+  - first:
+      213: 2431794896940571292
+    second: The Human Souls_39
+  - first:
+      213: -5554905294607840798
+    second: The Human Souls_40
+  - first:
+      213: -608478366052824536
+    second: The Human Souls_41
+  - first:
+      213: 8487443848982422574
+    second: The Human Souls_42
+  - first:
+      213: -6213441784229509734
+    second: The Human Souls_43
+  - first:
+      213: 434620689624312755
+    second: The Human Souls_44
+  - first:
+      213: 702371521538693696
+    second: The Human Souls_45
+  - first:
+      213: 915014447916232739
+    second: The Human Souls_46
+  - first:
+      213: -1437686512537659731
+    second: The Human Souls_47
+  - first:
+      213: -5873890539215433550
+    second: The Human Souls_48
+  - first:
+      213: 6562040640289886723
+    second: The Human Souls_49
+  - first:
+      213: 2799735827503612329
+    second: The Human Souls_50
+  - first:
+      213: -3612092365458983299
+    second: The Human Souls_51
+  - first:
+      213: -7303442006802292778
+    second: The Human Souls_52
+  - first:
+      213: 2776804585949861926
+    second: The Human Souls_53
+  - first:
+      213: 8888296961532859523
+    second: The Human Souls_54
+  - first:
+      213: -6369707078256424701
+    second: The Human Souls_55
+  - first:
+      213: 8025027883634816314
+    second: The Human Souls_56
+  - first:
+      213: 4364266346938057784
+    second: The Human Souls_57
+  - first:
+      213: -6174462151229372422
+    second: The Human Souls_58
+  - first:
+      213: 5814815517439186819
+    second: The Human Souls_59
+  - first:
+      213: -6508225245129808225
+    second: The Human Souls_60
+  - first:
+      213: -5352558007737806205
+    second: The Human Souls_61
+  - first:
+      213: -8836055801067427704
+    second: The Human Souls_62
+  - first:
+      213: -127738095194655773
+    second: The Human Souls_63
+  - first:
+      213: -5827840435999724987
+    second: The Human Souls_64
+  - first:
+      213: 6837858220419996359
+    second: The Human Souls_65
+  - first:
+      213: -6797356218127500634
+    second: The Human Souls_66
+  - first:
+      213: -1891267446920613294
+    second: The Human Souls_67
+  - first:
+      213: 524562019343457115
+    second: The Human Souls_68
+  - first:
+      213: -5323896865227919106
+    second: The Human Souls_69
+  - first:
+      213: -4608259110643368799
+    second: The Human Souls_70
+  - first:
+      213: -711720802475758312
+    second: The Human Souls_71
+  - first:
+      213: 2491541420400978989
+    second: The Human Souls_72
+  - first:
+      213: -9118665443731403176
+    second: The Human Souls_73
+  - first:
+      213: 1129836921578641416
+    second: The Human Souls_74
+  - first:
+      213: -180195351537276086
+    second: The Human Souls_75
+  - first:
+      213: -3715074950902867108
+    second: The Human Souls_76
+  - first:
+      213: 6320540049190996252
+    second: The Human Souls_77
+  - first:
+      213: 7828480849386118843
+    second: The Human Souls_78
+  - first:
+      213: 5344991700634963133
+    second: The Human Souls_79
+  - first:
+      213: -793939654212033912
+    second: The Human Souls_80
+  - first:
+      213: -8999591447212558458
+    second: The Human Souls_81
+  - first:
+      213: 2377055286042830095
+    second: The Human Souls_82
+  - first:
+      213: -8050134871182404531
+    second: The Human Souls_83
+  - first:
+      213: 6919607792903265133
+    second: The Human Souls_84
+  - first:
+      213: -1133829816717741855
+    second: The Human Souls_85
+  - first:
+      213: -3184077033546977055
+    second: The Human Souls_86
+  - first:
+      213: 3906535726099092769
+    second: The Human Souls_87
+  - first:
+      213: -4683919902025114180
+    second: The Human Souls_88
+  - first:
+      213: -4434085216338146071
+    second: The Human Souls_89
+  - first:
+      213: 7699554939837645350
+    second: The Human Souls_90
+  - first:
+      213: 6937394034629179249
+    second: The Human Souls_91
+  - first:
+      213: -327275316079265994
+    second: The Human Souls_92
+  - first:
+      213: 6756032105413190329
+    second: The Human Souls_93
+  - first:
+      213: -3018968243176592773
+    second: The Human Souls_94
+  - first:
+      213: -6311316884425058469
+    second: The Human Souls_95
+  - first:
+      213: 4137107430672803746
+    second: The Human Souls_96
+  - first:
+      213: 9100198603822767712
+    second: The Human Souls_97
+  - first:
+      213: 7866961935907597918
+    second: The Human Souls_98
+  - first:
+      213: 2090091890511741505
+    second: The Human Souls_99
+  - first:
+      213: 2830561366597653718
+    second: The Human Souls_100
+  - first:
+      213: 7130010399470971990
+    second: The Human Souls_101
+  - first:
+      213: 8629461158279615254
+    second: The Human Souls_102
+  - first:
+      213: 5092246294933286098
+    second: The Human Souls_103
+  - first:
+      213: 2840741339950610501
+    second: The Human Souls_104
+  - first:
+      213: 3977474407019229506
+    second: The Human Souls_105
+  - first:
+      213: 292118780866371002
+    second: The Human Souls_106
+  - first:
+      213: -2288341715921044554
+    second: The Human Souls_107
+  - first:
+      213: 5962461839722687853
+    second: The Human Souls_108
+  - first:
+      213: 2196989495703988991
+    second: The Human Souls_109
+  - first:
+      213: -2448787925212686413
+    second: The Human Souls_110
+  - first:
+      213: 572558372301208523
+    second: The Human Souls_111
+  - first:
+      213: -7318051392984522309
+    second: The Human Souls_112
+  - first:
+      213: -2078217577380354083
+    second: The Human Souls_113
+  - first:
+      213: 128831897336324816
+    second: The Human Souls_114
+  - first:
+      213: -4989997291613093424
+    second: The Human Souls_115
+  - first:
+      213: 1798590017534646209
+    second: The Human Souls_116
+  - first:
+      213: -3845502757853282651
+    second: The Human Souls_117
+  - first:
+      213: -5598474289081758162
+    second: The Human Souls_118
+  - first:
+      213: -2802248094634906162
+    second: The Human Souls_119
+  - first:
+      213: 7202040100377010183
+    second: The Human Souls_120
+  - first:
+      213: 5871740177182166316
+    second: The Human Souls_121
+  - first:
+      213: -6912839475278738642
+    second: The Human Souls_122
+  - first:
+      213: 2095153448839071952
+    second: The Human Souls_123
+  - first:
+      213: -2192837897217310009
+    second: The Human Souls_124
+  - first:
+      213: 9096297523406115729
+    second: The Human Souls_125
+  - first:
+      213: 8303204115916136940
+    second: The Human Souls_126
+  - first:
+      213: 729585382738649622
+    second: The Human Souls_127
+  - first:
+      213: 5311964446705812103
+    second: The Human Souls_128
+  - first:
+      213: 7245901089672988662
+    second: The Human Souls_129
+  - first:
+      213: -6449622843236417060
+    second: The Human Souls_130
+  - first:
+      213: -5172508998729659884
+    second: The Human Souls_131
+  - first:
+      213: -309128028781559468
+    second: The Human Souls_132
+  - first:
+      213: -1105472122942748632
+    second: The Human Souls_133
+  - first:
+      213: -5430632681037023825
+    second: The Human Souls_134
+  - first:
+      213: -2487762900032554858
+    second: The Human Souls_135
+  - first:
+      213: 166185572999821501
+    second: The Human Souls_136
+  - first:
+      213: -7728300054913183072
+    second: The Human Souls_137
+  - first:
+      213: 1497385320899783969
+    second: The Human Souls_138
+  - first:
+      213: -1873600849833462934
+    second: The Human Souls_139
+  - first:
+      213: -1130946507911926069
+    second: The Human Souls_140
+  - first:
+      213: -6398073362102693261
+    second: The Human Souls_141
+  - first:
+      213: 830766258541094335
+    second: The Human Souls_142
+  - first:
+      213: 4364025226382701240
+    second: The Human Souls_143
+  - first:
+      213: 6621994156291809003
+    second: The Human Souls_144
+  - first:
+      213: -4742763470218861206
+    second: The Human Souls_145
+  - first:
+      213: -804396405257590035
+    second: The Human Souls_146
+  - first:
+      213: -6100244421585515688
+    second: The Human Souls_147
+  - first:
+      213: -236816892739973498
+    second: The Human Souls_148
+  - first:
+      213: -5888261653814260442
+    second: The Human Souls_149
+  - first:
+      213: 5506810652513718483
+    second: The Human Souls_150
+  - first:
+      213: 7530891389908869304
+    second: The Human Souls_151
+  - first:
+      213: 3707612635840919149
+    second: The Human Souls_152
+  - first:
+      213: -3341247146817821676
+    second: The Human Souls_153
+  - first:
+      213: -8262685570558262482
+    second: The Human Souls_154
+  - first:
+      213: -5743661351360462765
+    second: The Human Souls_155
+  - first:
+      213: -9079823484729298574
+    second: The Human Souls_156
+  - first:
+      213: 1335155059767326831
+    second: The Human Souls_157
+  - first:
+      213: -1378518821078303654
+    second: The Human Souls_158
+  - first:
+      213: 3010143916208416497
+    second: The Human Souls_159
+  - first:
+      213: -5915856065016249136
+    second: The Human Souls_160
+  - first:
+      213: -5248414688954465581
+    second: The Human Souls_161
+  - first:
+      213: -7214814660181535607
+    second: The Human Souls_162
+  - first:
+      213: 7874626322674962603
+    second: The Human Souls_163
+  - first:
+      213: -242710301179374359
+    second: The Human Souls_164
+  - first:
+      213: 8310901953692845656
+    second: The Human Souls_165
+  - first:
+      213: 9060596093473100369
+    second: The Human Souls_166
+  - first:
+      213: 6315138904123074335
+    second: The Human Souls_167
+  - first:
+      213: 3598217335837580047
+    second: The Human Souls_168
+  - first:
+      213: -8721072187009809967
+    second: The Human Souls_169
+  - first:
+      213: -4987640519660896846
+    second: The Human Souls_170
+  - first:
+      213: -4650088399022835116
+    second: The Human Souls_171
+  - first:
+      213: 5718167466666127338
+    second: The Human Souls_172
+  - first:
+      213: -7053744159087880986
+    second: The Human Souls_173
+  - first:
+      213: 3504675215143022998
+    second: The Human Souls_174
+  - first:
+      213: 6733796787996059397
+    second: The Human Souls_175
+  - first:
+      213: 711188067638705151
+    second: The Human Souls_176
+  - first:
+      213: 8041508271407499499
+    second: The Human Souls_177
+  - first:
+      213: -4426375087676038637
+    second: The Human Souls_178
+  - first:
+      213: 6725487275871848855
+    second: The Human Souls_179
+  - first:
+      213: -5745801351142343147
+    second: The Human Souls_180
+  - first:
+      213: 1177703446455557619
+    second: The Human Souls_181
+  - first:
+      213: 7280091452173573285
+    second: The Human Souls_182
+  - first:
+      213: 2073629662923094671
+    second: The Human Souls_183
+  - first:
+      213: 8587324748532268076
+    second: The Human Souls_184
+  - first:
+      213: -2801743151898470641
+    second: The Human Souls_185
+  - first:
+      213: 7851037500203055849
+    second: The Human Souls_186
+  - first:
+      213: -4831116575522334521
+    second: The Human Souls_187
+  - first:
+      213: -3169334754559414018
+    second: The Human Souls_188
+  - first:
+      213: 3793519314778643365
+    second: The Human Souls_189
+  - first:
+      213: 615737505433825242
+    second: The Human Souls_190
+  - first:
+      213: 1207681304625249833
+    second: The Human Souls_191
+  - first:
+      213: -420607025349747444
+    second: The Human Souls_192
+  - first:
+      213: -7929426353858156748
+    second: The Human Souls_193
+  - first:
+      213: 3322077370819976053
+    second: The Human Souls_194
+  - first:
+      213: 3335231607051797671
+    second: The Human Souls_195
+  - first:
+      213: -2255587367359857129
+    second: The Human Souls_196
+  - first:
+      213: -5574086943940612484
+    second: The Human Souls_197
+  - first:
+      213: 7932160407413880869
+    second: The Human Souls_198
+  - first:
+      213: 1292493707683305250
+    second: The Human Souls_199
+  - first:
+      213: 6921699029883508812
+    second: The Human Souls_200
+  - first:
+      213: -8463248671235399961
+    second: The Human Souls_201
+  - first:
+      213: 7899289225582537354
+    second: The Human Souls_202
+  - first:
+      213: -3504537253293532491
+    second: The Human Souls_203
+  - first:
+      213: -3423819193932447441
+    second: The Human Souls_204
+  - first:
+      213: 3278803624001335926
+    second: The Human Souls_205
+  - first:
+      213: -94436196358475026
+    second: The Human Souls_206
+  - first:
+      213: -3702326591858268676
+    second: The Human Souls_207
+  - first:
+      213: 1016953193662822505
+    second: The Human Souls_208
+  - first:
+      213: -8853058019002371728
+    second: The Human Souls_209
+  - first:
+      213: -6802804112870221254
+    second: The Human Souls_210
+  - first:
+      213: -5884542036151465889
+    second: The Human Souls_211
+  - first:
+      213: -5692905376771005369
+    second: The Human Souls_212
+  - first:
+      213: 9135028495088211097
+    second: The Human Souls_213
+  - first:
+      213: 3340639250157574029
+    second: The Human Souls_214
+  - first:
+      213: 4609699989234157529
+    second: The Human Souls_215
+  - first:
+      213: -6667665705736005090
+    second: The Human Souls_216
+  - first:
+      213: -2309329179133236829
+    second: The Human Souls_217
+  - first:
+      213: 3556617710259183637
+    second: The Human Souls_218
+  - first:
+      213: 806206452538542686
+    second: The Human Souls_219
+  - first:
+      213: 4094494172642047166
+    second: The Human Souls_220
+  - first:
+      213: -7356900426011698245
+    second: The Human Souls_221
+  - first:
+      213: 818126555114677564
+    second: The Human Souls_222
+  - first:
+      213: -8681703611031219801
+    second: The Human Souls_223
+  - first:
+      213: -5738932169835960422
+    second: The Human Souls_224
+  - first:
+      213: 4093641582513830281
+    second: The Human Souls_225
+  - first:
+      213: -3349361073898379560
+    second: The Human Souls_226
+  - first:
+      213: -289103934624398206
+    second: The Human Souls_227
+  - first:
+      213: -7787138471670641666
+    second: The Human Souls_228
+  - first:
+      213: -194022570104133455
+    second: The Human Souls_229
+  - first:
+      213: -4695411967163385585
+    second: The Human Souls_230
+  - first:
+      213: 3024555744774169808
+    second: The Human Souls_231
+  - first:
+      213: 7454835055183252625
+    second: The Human Souls_232
+  - first:
+      213: -3961130017090204643
+    second: The Human Souls_233
+  - first:
+      213: 6708927632041348598
+    second: The Human Souls_234
+  - first:
+      213: 3702406681937319487
+    second: The Human Souls_235
+  - first:
+      213: 3183245329973309254
+    second: The Human Souls_236
+  - first:
+      213: 674150026509832335
+    second: The Human Souls_237
+  - first:
+      213: 1968705664202006555
+    second: The Human Souls_238
+  - first:
+      213: -8855178205228918113
+    second: The Human Souls_239
+  - first:
+      213: 6170484188110144724
+    second: The Human Souls_240
+  - first:
+      213: 8358347409089146938
+    second: The Human Souls_241
+  - first:
+      213: 5583517746958404074
+    second: The Human Souls_242
+  - first:
+      213: -4616815680682602301
+    second: The Human Souls_243
+  - first:
+      213: -7142423857497845837
+    second: The Human Souls_244
+  - first:
+      213: -3825368377295260573
+    second: The Human Souls_245
+  - first:
+      213: -5278235295450596364
+    second: The Human Souls_246
+  - first:
+      213: -9081684954237156647
+    second: The Human Souls_247
+  - first:
+      213: 3430004510132691139
+    second: The Human Souls_248
+  - first:
+      213: -3326823415065701945
+    second: The Human Souls_249
+  - first:
+      213: 2083256203877465619
+    second: The Human Souls_250
+  - first:
+      213: 7063479407796523081
+    second: The Human Souls_251
+  - first:
+      213: -6332756556610172906
+    second: The Human Souls_252
+  - first:
+      213: 7831047479545142858
+    second: The Human Souls_253
+  - first:
+      213: 5755806796601098659
+    second: The Human Souls_254
+  - first:
+      213: -4297370523631471359
+    second: The Human Souls_255
+  - first:
+      213: -8273664168426535517
+    second: The Human Souls_256
+  - first:
+      213: -1700366781136689398
+    second: The Human Souls_257
+  - first:
+      213: -8922321945363268866
+    second: The Human Souls_258
+  - first:
+      213: 6827542676867609659
+    second: The Human Souls_259
+  - first:
+      213: -1078643705973251519
+    second: The Human Souls_260
+  - first:
+      213: -5751749479038860715
+    second: The Human Souls_261
+  - first:
+      213: -7285504692455579060
+    second: The Human Souls_262
+  - first:
+      213: 5682955650094136490
+    second: The Human Souls_263
+  - first:
+      213: 2889356456252101378
+    second: The Human Souls_264
+  - first:
+      213: -5952174150433842995
+    second: The Human Souls_265
+  - first:
+      213: 6361005849627029611
+    second: The Human Souls_266
+  - first:
+      213: -3855848908452030044
+    second: The Human Souls_267
+  - first:
+      213: 1106913380305018252
+    second: The Human Souls_268
+  - first:
+      213: 515421063543721181
+    second: The Human Souls_269
+  - first:
+      213: 5775113901054215321
+    second: The Human Souls_270
+  - first:
+      213: 8123963183967616575
+    second: The Human Souls_271
+  - first:
+      213: 1291407211521659443
+    second: The Human Souls_272
+  - first:
+      213: 4475302292192297266
+    second: The Human Souls_273
+  - first:
+      213: -58528875741217739
+    second: The Human Souls_274
+  - first:
+      213: 3434459765481866526
+    second: The Human Souls_275
+  - first:
+      213: -1328655267483132059
+    second: The Human Souls_276
+  - first:
+      213: 8200620085123669970
+    second: The Human Souls_277
+  - first:
+      213: -6458066858865615340
+    second: The Human Souls_278
+  - first:
+      213: 8272146495915448232
+    second: The Human Souls_279
+  - first:
+      213: 8036306468235722700
+    second: The Human Souls_280
+  - first:
+      213: 5701814226660704829
+    second: The Human Souls_281
+  - first:
+      213: -1748941426647399178
+    second: The Human Souls_282
+  - first:
+      213: 5429197903285823802
+    second: The Human Souls_283
+  - first:
+      213: 974129581746282028
+    second: The Human Souls_284
+  - first:
+      213: -7120964666202583319
+    second: The Human Souls_285
+  - first:
+      213: 3179417967369888279
+    second: The Human Souls_286
+  - first:
+      213: 3028781714088541139
+    second: The Human Souls_287
+  - first:
+      213: -4571003691820608030
+    second: The Human Souls_288
+  - first:
+      213: -5498330317106028728
+    second: The Human Souls_289
+  - first:
+      213: 1416282730881089734
+    second: The Human Souls_290
+  - first:
+      213: 6606967670346310867
+    second: The Human Souls_291
+  - first:
+      213: 7571101927555163851
+    second: The Human Souls_292
+  - first:
+      213: -6576744631564516750
+    second: The Human Souls_293
+  - first:
+      213: 2785912105045785498
+    second: The Human Souls_294
+  - first:
+      213: 1444795620834245192
+    second: The Human Souls_295
+  - first:
+      213: 4429610232399022240
+    second: The Human Souls_296
+  - first:
+      213: 8543747726254311023
+    second: The Human Souls_297
+  - first:
+      213: 3246217614183332148
+    second: The Human Souls_298
+  - first:
+      213: 5287778492484187388
+    second: The Human Souls_299
+  - first:
+      213: -7161962692287725113
+    second: The Human Souls_300
+  - first:
+      213: -2467130607894936444
+    second: The Human Souls_0
+  - first:
+      213: -330978441342162646
+    second: The Human Souls_2
+  - first:
+      213: 5275544681202071883
+    second: The Human Souls_3
+  - first:
+      213: -8747513241866158782
+    second: The Human Souls_4
+  - first:
+      213: -1788064251370836372
+    second: The Human Souls_5
+  - first:
+      213: 3197964080568419871
+    second: The Human Souls_6
+  - first:
+      213: -8983447231436590078
+    second: The Human Souls_7
+  - first:
+      213: -7227874058701001649
+    second: The Human Souls_8
+  - first:
+      213: 5205381710741388753
+    second: The Human Souls_9
+  - first:
+      213: -2392450343933484198
+    second: The Human Souls_10
+  - first:
+      213: -8329945317664907162
+    second: The Human Souls_11
+  - first:
+      213: -7338423117373041128
+    second: The Human Souls_12
+  - first:
+      213: -2859311979888907085
+    second: The Human Souls_13
+  - first:
+      213: 175253146479026543
+    second: The Human Souls_14
+  - first:
+      213: 778924731191813165
+    second: The Human Souls_15
+  - first:
+      213: 6707672090564357931
+    second: The Human Souls_16
+  - first:
+      213: -6642207614106013533
+    second: The Human Souls_17
+  - first:
+      213: -3345570183524783844
+    second: The Human Souls_18
+  - first:
+      213: 4244443292218572558
+    second: The Human Souls_19
+  - first:
+      213: -322392650331982182
+    second: The Human Souls_20
+  - first:
+      213: -6553590791545957956
+    second: The Human Souls_21
+  - first:
+      213: 4058233396282110525
+    second: The Human Souls_22
+  - first:
+      213: 7697776792260375682
+    second: The Human Souls_23
+  - first:
+      213: -3303659268405179066
+    second: The Human Souls_24
+  - first:
+      213: -1670471919761718176
+    second: The Human Souls_25
+  - first:
+      213: -8791787441473544525
+    second: The Human Souls_26
+  - first:
+      213: -2725657410203186842
+    second: The Human Souls_27
+  - first:
+      213: 7261242557151477013
+    second: The Human Souls_28
+  - first:
+      213: 8805100803162649986
+    second: The Human Souls_29
+  - first:
+      213: -4329416133703970141
+    second: The Human Souls_30
+  - first:
+      213: -6240138211961810291
+    second: The Human Souls_31
+  - first:
+      213: -7164599795952137858
+    second: The Human Souls_32
+  - first:
+      213: 8047811600880243151
+    second: The Human Souls_33
+  - first:
+      213: 2452621873631198000
+    second: The Human Souls_34
+  - first:
+      213: 190241887146853895
+    second: The Human Souls_35
+  - first:
+      213: -1774374545343471821
+    second: The Human Souls_36
+  - first:
+      213: 5028918366852956813
+    second: The Human Souls_37
+  - first:
+      213: -5766640475483275777
+    second: The Human Souls_38
+  - first:
+      213: 8181140147104022699
+    second: The Human Souls_39
+  - first:
+      213: 4514863404159728260
+    second: The Human Souls_40
+  - first:
+      213: -3252868748637138018
+    second: The Human Souls_41
+  - first:
+      213: -5522097141650844530
+    second: The Human Souls_42
+  - first:
+      213: -8411900951902404211
+    second: The Human Souls_43
+  - first:
+      213: -5346467769188986508
+    second: The Human Souls_44
+  - first:
+      213: -2120527690489533599
+    second: The Human Souls_45
+  - first:
+      213: -4716530566198886722
+    second: The Human Souls_46
+  - first:
+      213: 4262147984572634671
+    second: The Human Souls_47
+  - first:
+      213: -493524654213267752
+    second: The Human Souls_48
+  - first:
+      213: -6555729295032115642
+    second: The Human Souls_49
+  - first:
+      213: -2713913857448276929
+    second: The Human Souls_50
+  - first:
+      213: 6144196651851773089
+    second: The Human Souls_51
+  - first:
+      213: 3342381811894137911
+    second: The Human Souls_52
+  - first:
+      213: -8560910085232679120
+    second: The Human Souls_53
+  - first:
+      213: -4475713280519506075
+    second: The Human Souls_54
+  - first:
+      213: -7967858763477677266
+    second: The Human Souls_55
+  - first:
+      213: 5658303208052447288
+    second: The Human Souls_56
+  - first:
+      213: -2123440842200205955
+    second: The Human Souls_57
+  - first:
+      213: 17853523621912828
+    second: The Human Souls_58
+  - first:
+      213: -7216747476628643442
+    second: The Human Souls_59
+  - first:
+      213: 4349689635938899396
+    second: The Human Souls_60
+  - first:
+      213: -8433024307837356201
+    second: The Human Souls_61
+  - first:
+      213: -1295468191771456117
+    second: The Human Souls_62
+  - first:
+      213: -7314038349934210440
+    second: The Human Souls_63
+  - first:
+      213: 5402187963974579277
+    second: The Human Souls_64
+  - first:
+      213: 2630869618031988571
+    second: The Human Souls_65
+  - first:
+      213: 896002334555635026
+    second: The Human Souls_66
+  - first:
+      213: -1861651651229870637
+    second: The Human Souls_67
+  - first:
+      213: 3918172823262790521
+    second: The Human Souls_68
+  - first:
+      213: 3805768274006412910
+    second: The Human Souls_69
+  - first:
+      213: 8881816538060875962
+    second: The Human Souls_70
+  - first:
+      213: -4934456773264102619
+    second: The Human Souls_71
+  - first:
+      213: -7752126824871547435
+    second: The Human Souls_72
+  - first:
+      213: -4741004761752850150
+    second: The Human Souls_73
+  - first:
+      213: 8882857412504223320
+    second: The Human Souls_74
+  - first:
+      213: 8592056198845859736
+    second: The Human Souls_75
+  - first:
+      213: 1461162909476786663
+    second: The Human Souls_76
+  - first:
+      213: 7043575576230077074
+    second: The Human Souls_77
+  - first:
+      213: 2854252126809466185
+    second: The Human Souls_78
+  - first:
+      213: -4455192402597818510
+    second: The Human Souls_79
+  - first:
+      213: 4666916820083984530
+    second: The Human Souls_80
+  - first:
+      213: 7137506981087774563
+    second: The Human Souls_81
+  - first:
+      213: -7218182184344177877
+    second: The Human Souls_82
+  - first:
+      213: -5700222142294803523
+    second: The Human Souls_83
+  - first:
+      213: 2708541065813091045
+    second: The Human Souls_84
+  - first:
+      213: 4939188014988508509
+    second: The Human Souls_85
+  - first:
+      213: 8889510448319036442
+    second: The Human Souls_86
+  - first:
+      213: 6271491427850085294
+    second: The Human Souls_87
+  - first:
+      213: -5719602093297875083
+    second: The Human Souls_88
+  - first:
+      213: -2953000003194434380
+    second: The Human Souls_89
+  - first:
+      213: 2034254658967031866
+    second: The Human Souls_90
+  - first:
+      213: -8476716701547618690
+    second: The Human Souls_91
+  - first:
+      213: 1430230316054986621
+    second: The Human Souls_92
+  - first:
+      213: -7540250575437956377
+    second: The Human Souls_93
+  - first:
+      213: 4701396398725782152
+    second: The Human Souls_94
+  - first:
+      213: 2523406302815926487
+    second: The Human Souls_95
+  - first:
+      213: 7699984432791874960
+    second: The Human Souls_96
+  - first:
+      213: 5924362147378058476
+    second: The Human Souls_97
+  - first:
+      213: 6160086595562063296
+    second: The Human Souls_98
+  - first:
+      213: -684079688253511454
+    second: The Human Souls_99
+  - first:
+      213: -3175403901931314642
+    second: The Human Souls_100
+  - first:
+      213: -5151500843282733698
+    second: The Human Souls_101
+  - first:
+      213: 5185516870781116865
+    second: The Human Souls_102
+  - first:
+      213: -2146306001962176405
+    second: The Human Souls_103
+  - first:
+      213: 7271007065876509675
+    second: The Human Souls_104
+  - first:
+      213: -8194731072825291506
+    second: The Human Souls_105
+  - first:
+      213: -2391651427276104060
+    second: The Human Souls_106
+  - first:
+      213: 4048194170030920553
+    second: The Human Souls_107
+  - first:
+      213: -7151465742567317590
+    second: The Human Souls_108
+  - first:
+      213: -5978378954043693328
+    second: The Human Souls_109
+  - first:
+      213: -2764952547044818549
+    second: The Human Souls_110
+  - first:
+      213: 463584681438885900
+    second: The Human Souls_111
+  - first:
+      213: 7793266691433996549
+    second: The Human Souls_112
+  - first:
+      213: 3949244836392011239
+    second: The Human Souls_113
+  - first:
+      213: -7477064899119590129
+    second: The Human Souls_114
+  - first:
+      213: 7432323880785258141
+    second: The Human Souls_115
+  - first:
+      213: 7793229059555410741
+    second: The Human Souls_116
+  - first:
+      213: -1559323401462229284
+    second: The Human Souls_117
+  - first:
+      213: 8142879688201233096
+    second: The Human Souls_118
+  - first:
+      213: 3650873646957324317
+    second: The Human Souls_119
+  - first:
+      213: 294820096596415373
+    second: The Human Souls_120
+  - first:
+      213: -6083675156726595566
+    second: The Human Souls_121
+  - first:
+      213: -3996417296189403546
+    second: The Human Souls_122
+  - first:
+      213: -3863310945309884207
+    second: The Human Souls_123
+  - first:
+      213: 2324240604922771561
+    second: The Human Souls_124
+  - first:
+      213: 4536063773436675755
+    second: The Human Souls_125
+  - first:
+      213: 7566414831444818770
+    second: The Human Souls_126
+  - first:
+      213: 8967382278596059651
+    second: The Human Souls_127
+  - first:
+      213: -3328417661128820416
+    second: The Human Souls_128
+  - first:
+      213: 995995324054862954
+    second: The Human Souls_129
+  - first:
+      213: -2406841838955931908
+    second: The Human Souls_130
+  - first:
+      213: 4475953439885515030
+    second: The Human Souls_131
+  - first:
+      213: 6765372587564147897
+    second: The Human Souls_132
+  - first:
+      213: 6601980008714107098
+    second: The Human Souls_133
+  - first:
+      213: -6459104791097505838
+    second: The Human Souls_134
+  - first:
+      213: -1305650890568809577
+    second: The Human Souls_135
+  - first:
+      213: -5747610785197446369
+    second: The Human Souls_136
+  - first:
+      213: -6699041563301858756
+    second: The Human Souls_137
+  - first:
+      213: -7446295195622680540
+    second: The Human Souls_138
+  - first:
+      213: -8659450855312520770
+    second: The Human Souls_139
+  - first:
+      213: 1485630085421434318
+    second: The Human Souls_140
+  - first:
+      213: 2149924038253756499
+    second: The Human Souls_141
+  - first:
+      213: -7510912288775403131
+    second: The Human Souls_142
+  - first:
+      213: 597014232672063225
+    second: The Human Souls_143
+  - first:
+      213: 5325669520917776318
+    second: The Human Souls_144
+  - first:
+      213: -2378265014549726237
+    second: The Human Souls_145
+  - first:
+      213: -5032934253074182574
+    second: The Human Souls_146
+  - first:
+      213: -8628231611262144216
+    second: The Human Souls_147
+  - first:
+      213: 889879546335102257
+    second: The Human Souls_148
+  - first:
+      213: 3076427053174625936
+    second: The Human Souls_149
+  - first:
+      213: -6923772625130633178
+    second: The Human Souls_150
+  - first:
+      213: 2270358683394800736
+    second: The Human Souls_151
+  - first:
+      213: 5266072891513355965
+    second: The Human Souls_152
+  - first:
+      213: -6210775258070728235
+    second: The Human Souls_153
+  - first:
+      213: 508045951286093457
+    second: The Human Souls_154
+  - first:
+      213: -4302204211351393094
+    second: The Human Souls_155
+  - first:
+      213: -4001819312981593197
+    second: The Human Souls_156
+  - first:
+      213: -3978369171931310591
+    second: The Human Souls_157
+  - first:
+      213: 6970520734987338144
+    second: The Human Souls_158
+  - first:
+      213: 1850676368655845624
+    second: The Human Souls_159
+  - first:
+      213: -9191565996521247562
+    second: The Human Souls_160
+  - first:
+      213: -1644647679292717997
+    second: The Human Souls_161
+  - first:
+      213: 971967848931807600
+    second: The Human Souls_162
+  - first:
+      213: 8600513341077880920
+    second: The Human Souls_163
+  - first:
+      213: -1757038408772176822
+    second: The Human Souls_164
+  - first:
+      213: -670703048080230925
+    second: The Human Souls_165
+  - first:
+      213: -7636422880398661403
+    second: The Human Souls_166
+  - first:
+      213: 937364573164450575
+    second: The Human Souls_167
+  - first:
+      213: -2107686326247920216
+    second: The Human Souls_168
+  - first:
+      213: -8261639378794924651
+    second: The Human Souls_169
+  - first:
+      213: 4027648960793623006
+    second: The Human Souls_170
+  - first:
+      213: 6923751904679783369
+    second: The Human Souls_171
+  - first:
+      213: 4095894288207826469
+    second: The Human Souls_172
+  - first:
+      213: -2909822658391700162
+    second: The Human Souls_173
+  - first:
+      213: 2729601732089610057
+    second: The Human Souls_174
+  - first:
+      213: -8529424607220976532
+    second: The Human Souls_175
+  - first:
+      213: -1721619149133359165
+    second: The Human Souls_176
+  - first:
+      213: -3408838866349680584
+    second: The Human Souls_177
+  - first:
+      213: 1545909709719509345
+    second: The Human Souls_178
+  - first:
+      213: 5523109630425275487
+    second: The Human Souls_179
+  - first:
+      213: -133311304994195568
+    second: The Human Souls_180
+  - first:
+      213: -450307172254499513
+    second: The Human Souls_181
+  - first:
+      213: -8027976335526659880
+    second: The Human Souls_182
+  - first:
+      213: 362307925651336
+    second: The Human Souls_183
+  - first:
+      213: 2396767021492432549
+    second: The Human Souls_184
+  - first:
+      213: -7833743689104217253
+    second: The Human Souls_185
+  - first:
+      213: -1632069007782258468
+    second: The Human Souls_186
+  - first:
+      213: 8568732360394299525
+    second: The Human Souls_187
+  - first:
+      213: -7844451812354709818
+    second: The Human Souls_188
+  - first:
+      213: -6315916866049581066
+    second: The Human Souls_189
+  - first:
+      213: 530461070525206666
+    second: The Human Souls_190
+  - first:
+      213: 8820245115518629009
+    second: The Human Souls_191
+  - first:
+      213: 7174778066922028949
+    second: The Human Souls_192
+  - first:
+      213: -6977597714409783961
+    second: The Human Souls_193
+  - first:
+      213: -7594376238332810628
+    second: The Human Souls_194
+  - first:
+      213: -3340616182687923669
+    second: The Human Souls_195
+  - first:
+      213: 7878085255508704743
+    second: The Human Souls_196
+  - first:
+      213: -828283757933858552
+    second: The Human Souls_197
+  - first:
+      213: 8880085007338248022
+    second: The Human Souls_198
+  - first:
+      213: 2121808699876633172
+    second: The Human Souls_199
+  - first:
+      213: -7359755541036910618
+    second: The Human Souls_200
+  - first:
+      213: -427692820740230527
+    second: The Human Souls_201
+  - first:
+      213: -6169167918705403642
+    second: The Human Souls_202
+  - first:
+      213: -8181872603151970962
+    second: The Human Souls_203
+  - first:
+      213: 5103474592479687881
+    second: The Human Souls_204
+  - first:
+      213: 4110016539923841404
+    second: The Human Souls_205
+  - first:
+      213: 1510665672406656796
+    second: The Human Souls_206
+  - first:
+      213: 3026285373321762637
+    second: The Human Souls_207
+  - first:
+      213: 6325679078812417643
+    second: The Human Souls_208
+  - first:
+      213: 6570726753567959624
+    second: The Human Souls_209
+  - first:
+      213: 3666042960432626552
+    second: The Human Souls_210
+  - first:
+      213: 2531744139734869072
+    second: The Human Souls_211
+  - first:
+      213: -2720946045195945689
+    second: The Human Souls_212
+  - first:
+      213: -839429524826932722
+    second: The Human Souls_213
+  - first:
+      213: 8285879310447839347
+    second: The Human Souls_214
+  - first:
+      213: -7844402101473212554
+    second: The Human Souls_215
+  - first:
+      213: 6661066752103343158
+    second: The Human Souls_216
+  - first:
+      213: 5477355825636202521
+    second: The Human Souls_217
+  - first:
+      213: -5967258825672788063
+    second: The Human Souls_218
+  - first:
+      213: -449436410125235506
+    second: The Human Souls_219
+  - first:
+      213: -2383658828688366281
+    second: The Human Souls_220
+  - first:
+      213: 5910192152509386806
+    second: The Human Souls_221
+  - first:
+      213: -2642351016209719585
+    second: The Human Souls_222
+  - first:
+      213: 2255722991117438314
+    second: The Human Souls_223
+  - first:
+      213: 5432495335840835299
+    second: The Human Souls_224
+  - first:
+      213: -1138705792793075735
+    second: The Human Souls_225
+  - first:
+      213: 2307778078293170212
+    second: The Human Souls_226
+  - first:
+      213: 2875462146237343137
+    second: The Human Souls_227
+  - first:
+      213: -557479581440422427
+    second: The Human Souls_228
+  - first:
+      213: -778858324831978680
+    second: The Human Souls_229
+  - first:
+      213: -7851438048012508200
+    second: The Human Souls_230
+  - first:
+      213: -1661065850558721420
+    second: The Human Souls_231
+  - first:
+      213: 3688515096724865615
+    second: The Human Souls_232
+  - first:
+      213: 1030976588577906824
+    second: The Human Souls_233
+  - first:
+      213: -7160862497690321528
+    second: The Human Souls_234
+  - first:
+      213: 5721498162061983870
+    second: The Human Souls_235
+  - first:
+      213: 822224867663420651
+    second: The Human Souls_236
+  - first:
+      213: -6809936528696572927
+    second: The Human Souls_237
+  - first:
+      213: 8509665501032943279
+    second: The Human Souls_238
+  - first:
+      213: -3520475880765407048
+    second: The Human Souls_239
+  - first:
+      213: -7974542099672797140
+    second: The Human Souls_240
+  - first:
+      213: -176273243125255021
+    second: The Human Souls_241
+  - first:
+      213: 4126526586836441812
+    second: The Human Souls_242
+  - first:
+      213: -2536959962317248189
+    second: The Human Souls_243
+  - first:
+      213: 6081635937216390270
+    second: The Human Souls_244
+  - first:
+      213: 4101684350121303787
+    second: The Human Souls_245
+  - first:
+      213: -8135386546237488334
+    second: The Human Souls_246
+  - first:
+      213: 5381370561880042564
+    second: The Human Souls_247
+  - first:
+      213: 5367116489480689055
+    second: The Human Souls_248
+  - first:
+      213: 6007815996868200467
+    second: The Human Souls_249
+  - first:
+      213: 2039434412593745792
+    second: The Human Souls_250
+  - first:
+      213: 7941049824509897206
+    second: The Human Souls_251
+  - first:
+      213: 2980860308154581097
+    second: The Human Souls_252
+  - first:
+      213: -2052630243050500000
+    second: The Human Souls_253
+  - first:
+      213: -7514939901481296014
+    second: The Human Souls_254
+  - first:
+      213: 2254276280515536071
+    second: The Human Souls_255
+  - first:
+      213: -5324516179850958481
+    second: The Human Souls_256
+  - first:
+      213: -6034443107319550211
+    second: The Human Souls_257
+  - first:
+      213: 1744758119480648999
+    second: The Human Souls_258
+  - first:
+      213: 4637387541890379459
+    second: The Human Souls_259
+  - first:
+      213: 3905196918551021567
+    second: The Human Souls_260
+  - first:
+      213: -3303604844255419935
+    second: The Human Souls_261
+  - first:
+      213: -4408292626392537021
+    second: The Human Souls_262
+  - first:
+      213: -4606099557633417548
+    second: The Human Souls_263
+  - first:
+      213: 6060234175681955925
+    second: The Human Souls_264
+  - first:
+      213: 7963389651093618337
+    second: The Human Souls_265
+  - first:
+      213: 4078670073398702100
+    second: The Human Souls_266
+  - first:
+      213: 534501478486583138
+    second: The Human Souls_267
+  - first:
+      213: 4615330037982403826
+    second: The Human Souls_268
+  - first:
+      213: 3271802850941609706
+    second: The Human Souls_269
+  - first:
+      213: -4921301633226068322
+    second: The Human Souls_270
+  - first:
+      213: 4160588699296392543
+    second: The Human Souls_271
+  - first:
+      213: 4966424208915241658
+    second: The Human Souls_272
+  - first:
+      213: 8437236525434935179
+    second: The Human Souls_273
+  - first:
+      213: -8373199620045243486
+    second: The Human Souls_274
+  - first:
+      213: -7433599973595326135
+    second: The Human Souls_275
+  - first:
+      213: 3854552582324173596
+    second: The Human Souls_276
+  - first:
+      213: 4151608913580649761
+    second: The Human Souls_277
+  - first:
+      213: -6756193524129835532
+    second: The Human Souls_278
+  - first:
+      213: 2446073829272988294
+    second: The Human Souls_279
+  - first:
+      213: 8671392280491421401
+    second: The Human Souls_280
+  - first:
+      213: -8239710031699220898
+    second: The Human Souls_281
+  - first:
+      213: 7480626659162834596
+    second: The Human Souls_282
+  - first:
+      213: 264001107344704909
+    second: The Human Souls_283
+  - first:
+      213: -6297599117884073059
+    second: The Human Souls_284
+  - first:
+      213: 2870427003408545958
+    second: The Human Souls_285
+  - first:
+      213: 7822707466128442916
+    second: The Human Souls_286
+  - first:
+      213: 7542573038016232979
+    second: The Human Souls_287
+  - first:
+      213: 4002482575198454169
+    second: The Human Souls_288
+  - first:
+      213: 5526790676355743142
+    second: The Human Souls_289
+  - first:
+      213: -602988818005661949
+    second: The Human Souls_290
+  - first:
+      213: -931635572197660636
+    second: The Human Souls_291
+  - first:
+      213: 8140171998773615528
+    second: The Human Souls_292
+  - first:
+      213: 5188652547726178787
+    second: The Human Souls_293
+  - first:
+      213: -2681690839073320949
+    second: The Human Souls_294
+  - first:
+      213: 457607276360189020
+    second: The Human Souls_295
+  - first:
+      213: -3390540600383425492
+    second: The Human Souls_296
+  - first:
+      213: 3255393432459068492
+    second: The Human Souls_297
+  - first:
+      213: 3794265859776994075
+    second: The Human Souls_298
+  - first:
+      213: 6343684379399533926
+    second: The Human Souls_299
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: The Human Souls_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 768
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484cde598cdf2cdd0800000000000000
+      internalID: -2467130607894936444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Human Souls_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 722
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d44f0600d732640800000000000000
+      internalID: 5054020647419923738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Human Souls_2
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 748
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29ec777cd0286bf0800000000000000
+      internalID: -330978441342162646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Human Souls_3
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 687
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4930cfbfef763940800000000000000
+      internalID: 5275544681202071883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Human Souls_4
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 687
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24dba868d079a9680800000000000000
+      internalID: -8747513241866158782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Human Souls_5
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 660
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e677579058f27e0800000000000000
+      internalID: -1788064251370836372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Human Souls_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 643
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f164db24363716c20800000000000000
+      internalID: 3197964080568419871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Human Souls_7
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 643
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20471cfd652645380800000000000000
+      internalID: -8983447231436590078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Human Souls_9
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 643
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd3e0d261b3d3840800000000000000
+      internalID: 5205381710741388753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Human Souls_10
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 643
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a536513861f4cced0800000000000000
+      internalID: -2392450343933484198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

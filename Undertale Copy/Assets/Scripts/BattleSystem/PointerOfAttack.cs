@@ -5,16 +5,16 @@ using UnityEngine;
 
 public class PointerOfAttack : MonoBehaviour
 {
-    public float velocityOfPointer;
-    public bool canMove = true;
+    [SerializeField] private float velocityOfPointer = 0;
+    private bool canMove = true;
     private int quantityOfCollision = 0;
 
-    public GameObject attackLevel;
+    private GameObject attackLevel;
     //Fazer Herança da classe enemy
-    public TorielBoss toriel;
-    public PlayerHeart playerHeart;
+    private TorielBoss toriel;
+    private PlayerHeart playerHeart;
 
-    public Collider2D lastCollision;
+    private Collider2D lastCollision;
     private Rigidbody2D rig;
 
     // Start is called before the first frame update
@@ -40,14 +40,14 @@ public class PointerOfAttack : MonoBehaviour
         }
     }
 
-    public void MovePointer()
+    private void MovePointer()
     {
         rig.velocity = new Vector2(velocityOfPointer, rig.velocity.y);
     }
 
-    public void CleanBattleField()
+    private void CleanBattleField()
     {
-        Destroy(attackLevel.gameObject);
+        Destroy(attackLevel);
         GameObject.Find("Diretor").GetComponent<Diretor>().PrepareToFight();
     }
 
@@ -66,27 +66,20 @@ public class PointerOfAttack : MonoBehaviour
         Destroy(this.gameObject);
     }
 
-    public double DamageReduce()
+    private double DamageReduce()
     {
-        if (lastCollision.gameObject.name.Equals("PerfectScore"))
+        switch (lastCollision.gameObject.name)
         {
-            return 0;
-        }
-        else if (lastCollision.gameObject.name.Equals("HighScore"))
-        {
-            return 0.2;
-        }
-        else if (lastCollision.gameObject.name.Equals("MediumScore"))
-        {
-            return 0.5;
-        }
-        else if (lastCollision.gameObject.name.Equals("LowScore"))
-        {
-            return 0.8;
-        }
-        else
-        {
-            return 1;
+            case "PerfectScore":
+                return 0;
+            case "HighScore":
+                return 0.2;
+            case "MediumScore":
+                return 0.5;
+            case "LowScore":
+                return 0.8;
+            default:
+                return 1;
         }
     }
 

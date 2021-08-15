@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 72
-  m_Sprite: {fileID: 2170287762697732981, guid: fdc005db128e88c438f134f19843ef64,
+  m_Sprite: {fileID: 5178634882477242248, guid: fdc005db128e88c438f134f19843ef64,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -99,11 +99,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocityOfPointer: -200
-  canMove: 1
-  attackLevel: {fileID: 0}
-  toriel: {fileID: 0}
-  playerHeart: {fileID: 0}
-  lastCollision: {fileID: 0}
 --- !u!50 &-53999419746555004
 Rigidbody2D:
   serializedVersion: 4

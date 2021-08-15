@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class FireToriel : MonoBehaviour
 {
+
+    private int powerOfToriel;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        powerOfToriel = GameObject.Find("Toriel").GetComponent<TorielBoss>().GetPowerOfToriel();
     }
 
     // Update is called once per frame
@@ -20,7 +23,7 @@ public class FireToriel : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            collision.gameObject.GetComponent<PlayerHeart>().Damage(1);
+            collision.gameObject.GetComponent<PlayerHeart>().Damage(powerOfToriel);
             Destroy(this.gameObject);
         }
 

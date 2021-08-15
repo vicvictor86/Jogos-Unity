@@ -4,25 +4,27 @@ using UnityEngine;
 
 public class TorielBoss : MonoBehaviour
 {
+    [Header("Toriel Informations")]
+    [SerializeField] private double life;
+    [SerializeField] private int powerOfToriel = 0;
+    [SerializeField] private GameObject fireToriel = null;
+    [SerializeField] private int convincing = 0;
 
-    public double life;
-    public GameObject fireToriel;
-
-    public Vector3 center;
-    public Vector3 size;
+    [Header("Region Of Fire")]
+    [SerializeField] private Vector3 center;
+    [SerializeField] private Vector3 size;
 
     // Start is called before the first frame update
     void Start()
     {
-        life = 10;
-        center = new Vector3(634, 505, 0);
+        center = new Vector3(970, 656, 0);
         size = new Vector3(250, 78, 0);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.Q) && GameObject.Find("Diretor").GetComponent<Diretor>().IsFighting())
         {
             Attack();
         }
@@ -42,5 +44,25 @@ public class TorielBoss : MonoBehaviour
     public void OnDrawGizmos()
     {
         Gizmos.DrawCube(center, size);
+    }
+
+    public int GetPowerOfToriel()
+    {
+        return this.powerOfToriel;
+    }
+
+    public double GetLife()
+    {
+        return this.life;
+    }
+
+    public int GetConvincing()
+    {
+        return this.convincing;
+    }
+
+    public void Convince(int number)
+    {
+        this.convincing -= number;
     }
 }
