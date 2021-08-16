@@ -27,8 +27,13 @@ public class UISystem : MonoBehaviour
         textOfLife.text = playerHeart.GetLife() + "/" + playerHeart.GetLifeMax();
     }
 
-    public void LifeBarChange(int lifeLoose)
+    public void LifeBarDegrease(int lifeLoose)
     {
         lifeBar.fillAmount -= (float) lifeLoose / 20;
+    }
+    
+    public void LifeBarAddition(int lifeWin)
+    {
+        lifeBar.fillAmount += (float) lifeWin / 20;
     }
 }

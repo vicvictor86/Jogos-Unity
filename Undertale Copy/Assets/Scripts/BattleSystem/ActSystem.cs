@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Asyncoroutine;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -21,7 +22,7 @@ public class ActSystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Z) && isReading == true)
+        if(Input.GetKeyDown(KeyCode.Z) && isReading)
         {
             Destroy(GameObject.Find("WhatHappen(Clone)"));
             GameObject.Find("Diretor").GetComponent<Diretor>().PrepareToFight();
@@ -33,29 +34,36 @@ public class ActSystem : MonoBehaviour
     {
         buttonCheck = GameObject.Find("ButtonActCheck(Clone)");
         buttonTalk = GameObject.Find("ButtonActTalk(Clone)");
-        buttonCheck.GetComponent<Button>().onClick.AddListener(() => { ClickOnCheck(); });
-        buttonTalk.GetComponent<Button>().onClick.AddListener(() => { ClickOnTalk(); });
+        buttonCheck.GetComponent<Button>().onClick.AddListener(ClickOnCheck);
+        buttonTalk.GetComponent<Button>().onClick.AddListener(ClickOnTalk);
     }
 
-    private void DestroyButtonsAct(string text)
+    public void DestroyButtonsAct()
     {
         Destroy(buttonCheck);
         Destroy(buttonTalk);
+    }
+    
+    private async void WhatHappen(string text)
+    {
+        DestroyButtonsAct();
         GameObject whatHappenCreated = Instantiate(whatHappen, positionOfText.transform.position, Quaternion.identity, positionOfText.transform.parent);
         whatHappenCreated.GetComponent<Text>().text = text;
+
+        await new WaitForSeconds(0.5f);
         isReading = true;
     }
 
     public void ClickOnCheck()
     {
-        DestroyButtonsAct("                                     Attack: " + toriel.GetPowerOfToriel() + "                                                    Life: " + toriel.GetLife());
+        GameObject.Find("Diretor").GetComponent<Diretor>().DisableBack();
+        WhatHappen("                                     Attack: " + toriel.GetPowerOfToriel() + "                                                    Life: " + toriel.GetLife());
     }
 
     public void ClickOnTalk()
     {
-        DestroyButtonsAct("Você tenta conversar com Toriel, sem sucesso.");
+        GameObject.Find("Diretor").GetComponent<Diretor>().DisableBack();
+        WhatHappen("Você tenta conversar com Toriel, sem sucesso.");
         toriel.Convince(1);
     }
-
-    
 }

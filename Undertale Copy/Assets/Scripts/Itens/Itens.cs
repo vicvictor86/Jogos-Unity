@@ -21,24 +21,38 @@ public class Itens : MonoBehaviour
         player = GameObject.Find("PlayerHeart").GetComponent<PlayerHeart>();
     }
 
-    public void Use()
+    public bool Use()
     {
+        bool itemUse = true;
         switch (type)
         {
             case TypeOfItem.Attack:
                 player.SetPower(player.GetPower() + power);
                 break;
             case TypeOfItem.Healing:
-                player.Heal(power);
+                if (player.GetLife() != player.GetLifeMax())
+                {
+                    player.Heal(power);
+                }
+                else
+                {
+                    itemUse = false;
+                }
                 break;
         }
-        
-        int quantityOfItem = PlayerPrefs.GetInt(nameOfItem + "Quantity");
-        //Trabalhar para sumir da lisat quando chegar a zero
-        if (quantityOfItem > 0)
+
+        if (itemUse)
         {
-            PlayerPrefs.SetInt(nameOfItem + "Quantity", quantityOfItem - 1);
+            //Não fazer dessa forma pois caso o jogo pare de ser executado n se deve perder os itens
+            //Modificar em uma list que devo fazer dps
+            int quantityOfItem = PlayerPrefs.GetInt(nameOfItem + "Quantity");
+            if (quantityOfItem > 0)
+            {
+                PlayerPrefs.SetInt(nameOfItem + "Quantity", quantityOfItem - 1);
+            }
         }
+
+        return itemUse;
     }
 
     public string GetName()
@@ -56,9 +70,9 @@ public class Itens : MonoBehaviour
         return this.description;
     }
 
-    public void SetName(string name)
+    public void SetName(string nameOfItem)
     {
-        this.nameOfItem = name;
+        this.nameOfItem = nameOfItem;
     }
 
     public void SetPower(int power)

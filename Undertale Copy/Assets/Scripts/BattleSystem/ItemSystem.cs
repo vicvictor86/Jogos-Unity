@@ -60,13 +60,19 @@ public class ItemSystem : MonoBehaviour
     {
         itemActual.Use();
 
-        DestroyEveryChildren("LayoutButtons");
-        DestroyEveryChildren("ParentItensGameObject");
+        director.DisableBack();
+        DestroyChidrenItems();
 
         director.PrepareToFight();
     }
 
-    public void DestroyEveryChildren(string nameOfParent)
+    public void DestroyChidrenItems()
+    {
+        DestroyEveryChildren("LayoutButtons");
+        DestroyEveryChildren("ParentItensGameObject");
+    }
+
+    private void DestroyEveryChildren(string nameOfParent)
     {
         GameObject parent = GameObject.Find(nameOfParent);
         foreach (Transform child in parent.transform)

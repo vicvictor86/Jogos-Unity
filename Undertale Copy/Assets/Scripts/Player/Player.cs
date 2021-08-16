@@ -79,6 +79,7 @@ public class Player : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Toriel") && alreadyBattle == false)
         {
+            GameObject.Find("Main Camera OpenWorld").GetComponent<AudioSource>().Pause();
             jojoEffect.StartingBattle();
 
             float timeFlick = 2f;

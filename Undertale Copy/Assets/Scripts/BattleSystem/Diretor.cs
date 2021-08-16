@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class Diretor : MonoBehaviour
@@ -32,11 +33,11 @@ public class Diretor : MonoBehaviour
     [SerializeField] private GameObject positionOfTalk = null;
 
     [Header("Buttons")]
-    [SerializeField] private bool clickFight = true;
-    [SerializeField] private bool clickAct = false;
-    [SerializeField] private bool clickItem = false;
-    [SerializeField] private bool clickMercy = false;
+    [SerializeField] private bool firstClick = false;
+    [SerializeField] private bool secondClick = false;
     [SerializeField] private bool isFighting = false;
+    [SerializeField] private bool clickItem = false;
+    [SerializeField] private EventSystem eventSystem = null;
 
     [Header("Texts of Monster")] 
     [SerializeField] private GameObject textOfCharacter = null;
@@ -49,6 +50,7 @@ public class Diretor : MonoBehaviour
     [SerializeField] private List<Itens> itensList = null;
 
     private TorielBoss toriel = null;
+    private GameObject lastButtonSelected = null;
 
     public void Start()
     {
@@ -68,7 +70,7 @@ public class Diretor : MonoBehaviour
             //MenuEsc.SetActive(estaPausado);    
         }
 
-        if(Input.GetKeyUp(KeyCode.Z) && isReading == true)
+        if(Input.GetKeyUp(KeyCode.Z) && isReading)
         {
             Destroy(GameObject.Find("TextCharacter(Clone)"));
             isReading = false;
@@ -82,8 +84,149 @@ public class Diretor : MonoBehaviour
                 this.transform.parent.gameObject.SetActive(false);
             }
         }
+
+        if (Input.GetKeyUp(KeyCode.X) && firstClick)
+        {
+            switch (secondClick)
+            {
+                case false:
+                {
+                    ReturnToTextFromTargetSelect();
+                    
+                    if (clickItem)
+                    {
+                        itemSystem.DestroyChidrenItems();
+                        clickItem = false;
+                    }
+                    
+                    SelectFirstButton(lastButtonSelected);
+                    firstClick = false;
+                    break;
+                }
+                case true:
+                    GameObject.Find("ActSystem").GetComponent<ActSystem>().DestroyButtonsAct();
+                    GameObject firstButton = DefineActButton();
+                    secondClick = false;
+                    SelectFirstButton(firstButton);
+                    break;
+            }
+        }
+    }
+    
+    private void FirstClick()
+    {
+        Destroy(GameObject.Find("TextCharacter(Clone)"));
+        firstClick = true;
+        SetInterectableButtons(false);
     }
 
+    public void ClickFightButton()
+    {
+        FirstClick();
+        lastButtonSelected = battleButtons[0].gameObject;
+        GameObject buttonPlayerTarget = DefineTarget();
+        buttonPlayerTarget.GetComponent<Button>().onClick.AddListener(WannaFightButton);
+        SelectFirstButton(buttonPlayerTarget);
+    }
+
+    private void WannaFightButton()
+    {
+        Destroy(GameObject.Find("PlayerTarget(Clone)"));
+        DisableBack();
+        Instantiate(attackLevel, battleFieldSprite.transform.position, Quaternion.identity);
+        Instantiate(pointerOfAttack, positionOfPointer.transform.position, Quaternion.identity);
+    }
+
+    private GameObject DefineActButton()
+    {
+        GameObject buttonPlayerTarget = DefineTarget();
+        buttonPlayerTarget.GetComponent<Button>().onClick.AddListener(WannaActButton);
+
+        return buttonPlayerTarget;
+    }
+    
+    public void ClickActButton()
+    {
+        FirstClick();
+        lastButtonSelected = battleButtons[1].gameObject;
+        SelectFirstButton(DefineActButton());
+    }
+
+    private void WannaActButton()
+    {
+        Destroy(GameObject.Find("PlayerTarget(Clone)"));
+
+        secondClick = true;
+        GameObject firstButton = Instantiate(buttonCheck, positionOfCheck.transform.position, Quaternion.identity, positionOfCheck.transform.parent);
+        Instantiate(buttonTalk, positionOfTalk.transform.position, Quaternion.identity, positionOfTalk.transform.parent);
+        
+        SelectFirstButton(firstButton);
+        GameObject.Find("ActSystem").GetComponent<ActSystem>().DefineObjects();
+    }
+    public void ClickItemButton()
+    {
+        FirstClick();
+        clickItem = true;
+        lastButtonSelected = battleButtons[2].gameObject;
+        
+        itensList = itemSystem.ListOfItems();
+        if(itensList.Capacity == 0)
+        {
+            InstantiateTextOfCharacter("Voce nao tem nenhum item");
+            isReading = true;
+        }
+        
+        GameObject layoutButtons = GameObject.Find("LayoutButtons");
+        int step = 0;
+        foreach (Itens itemActual in itensList)
+        {
+            
+            GameObject itemInstantiate = Instantiate(itemButton, layoutButtons.transform);
+            
+            if (step == 0)
+            {
+                SelectFirstButton(itemInstantiate);
+                step++;
+            }
+            
+            itemInstantiate.GetComponentInChildren<Text>().text = itemActual.GetName();
+            itemInstantiate.GetComponent<Button>().onClick.AddListener(() => { itemSystem.UseItem(itemActual); });
+        }
+    }
+    public void IsMercy()
+    {
+        FirstClick();
+        
+        GameObject buttonPlayerTarget = DefineTarget();
+        lastButtonSelected = battleButtons[3].gameObject;
+        SelectFirstButton(buttonPlayerTarget);
+        
+        buttonPlayerTarget.GetComponent<Button>().onClick.AddListener(WannaMercyButton);
+    }
+
+    private void WannaMercyButton()
+    {
+        Destroy(GameObject.Find("PlayerTarget(Clone)"));
+        DisableBack();
+        if (toriel.GetConvincing() <= 0)
+        {
+            InstantiateTextOfCharacter("Toriel nao ta mais tiltada, ces fizeram as pazes");
+            isConvinced = true;
+            isReading = true;
+        }
+        else
+        {
+            InstantiateTextOfCharacter("Toriel ainda ta tiltada contigo, hora da porrada");
+            isReading = true;
+        }
+    }
+    
+    private void SelectFirstButton(GameObject firstButton)
+    {
+        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(firstButton);
+    }
+    
     private void InstantiateTextOfCharacter(string text)
     {
         GameObject textConvincig = Instantiate(textOfCharacter, positionOfText.transform.position, Quaternion.identity, positionOfText.transform.parent);
@@ -99,6 +242,7 @@ public class Diretor : MonoBehaviour
     {
         yield return new WaitForSeconds(timeOfBattle);
 
+        isFighting = false;
         playerHeart.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
         
         ChangeBattleFieldToLarge();
@@ -107,12 +251,19 @@ public class Diretor : MonoBehaviour
         InstantiateTextOfCharacter("Toriel ta tiltada contigo");
         SetInterectableButtons(true);
         
-        isFighting = false;
+        DisableBack();
         DisablePlayer();
+        SelectFirstButton(battleButtons[0].gameObject);
         
         StopCoroutine(nameof(EndBattle));
     }
 
+    public void DisableBack()
+    {
+        firstClick = false;
+        secondClick = false;
+    }
+    
     private void SetInterectableButtons(bool boolean)
     {
         foreach (Button button in battleButtons)
@@ -153,95 +304,16 @@ public class Diretor : MonoBehaviour
         battleFieldSprite.GetComponent<Animator>().Play("DecreaseOfBattleFieldReversed");
     }
 
-    private GameObject TransitionTextToTargetSelect()
+    private GameObject DefineTarget()
     {
-        Destroy(GameObject.Find("TextCharacter(Clone)"));
         return Instantiate(playerTarget, positionOfCheck.transform.position, Quaternion.identity, positionOfCheck.transform.parent);
     }
 
-    public void ClickFightButton()
-    {
-        clickFight = !clickFight;
-        SetInterectableButtons(false);
-
-        GameObject buttonPlayerTarget = TransitionTextToTargetSelect();
-        buttonPlayerTarget.GetComponent<Button>().onClick.AddListener(WannaFightButton);
-    }
-
-    private void WannaFightButton()
-    {
-        //Animação pra atacar
-        Destroy(GameObject.Find("PlayerTarget(Clone)"));
-
-        Instantiate(attackLevel, battleFieldSprite.transform.position, Quaternion.identity);
-        Instantiate(pointerOfAttack, positionOfPointer.transform.position, Quaternion.identity);
-    }
-
-    public void ClickActButton()
-    {
-        clickAct = !clickAct;
-        SetInterectableButtons(false);
-
-        GameObject buttonPlayerTarget = TransitionTextToTargetSelect();
-        buttonPlayerTarget.GetComponent<Button>().onClick.AddListener(WannaActButton);
-    }
-
-    private void WannaActButton()
-    {
-        //Animação de diálogo
-        Destroy(GameObject.Find("PlayerTarget(Clone)"));
-        ChangeBattleFieldToLarge();
-
-        Instantiate(buttonCheck, positionOfCheck.transform.position, Quaternion.identity, positionOfCheck.transform.parent);
-        Instantiate(buttonTalk, positionOfTalk.transform.position, Quaternion.identity, positionOfTalk.transform.parent);
-        
-        GameObject.Find("ActSystem").GetComponent<ActSystem>().DefineObjects();
-    }
-    public void ClickItemButton()
-    {
-        clickItem = !clickItem;
-        Destroy(GameObject.Find("TextCharacter(Clone)"));
-        SetInterectableButtons(false);
-
-        //Escolha de item
-        itensList = itemSystem.ListOfItems();
-        if(itensList.Capacity == 0)
-        {
-            InstantiateTextOfCharacter("Voce nao tem nenhum item");
-            isReading = true;
-        }
-
-        GameObject layoutButtons = GameObject.Find("LayoutButtons");
-        foreach (Itens itemActual in itensList)
-        {
-            GameObject itemInstantiate = Instantiate(itemButton, layoutButtons.transform);
-            itemInstantiate.GetComponentInChildren<Text>().text = itemActual.GetName();
-            itemInstantiate.GetComponent<Button>().onClick.AddListener(() => { itemSystem.UseItem(itemActual); });
-        }
-    }
-    public void IsMercy()
-    {
-        clickMercy = !clickMercy;
-        SetInterectableButtons(false);
-
-        GameObject buttonPlayerTarget = TransitionTextToTargetSelect();
-        buttonPlayerTarget.GetComponent<Button>().onClick.AddListener(WannaMercyButton);
-    }
-
-    private void WannaMercyButton()
+    private void ReturnToTextFromTargetSelect()
     {
         Destroy(GameObject.Find("PlayerTarget(Clone)"));
-        if (toriel.GetConvincing() <= 0)
-        {
-            InstantiateTextOfCharacter("Toriel nao ta mais tiltada, ces fizeram as pazes");
-            isConvinced = true;
-            isReading = true;
-        }
-        else
-        {
-            InstantiateTextOfCharacter("Toriel ainda ta tiltada contigo, hora da porrada");
-            isReading = true;
-        }
+        InstantiateTextOfCharacter("Toriel ta tiltada contigo");
+        SetInterectableButtons(true);
     }
 
     public bool IsFighting()
@@ -252,5 +324,10 @@ public class Diretor : MonoBehaviour
     private void ChangingScaleBattlefield(float x, float y, float z)
     {
         battleFieldSprite.transform.localScale = new Vector3(x, y, z);
+    }
+
+    public void SetSecondClick(bool boolean)
+    {
+        this.secondClick = boolean;
     }
 }

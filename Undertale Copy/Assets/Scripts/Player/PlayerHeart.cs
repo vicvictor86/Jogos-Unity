@@ -51,13 +51,20 @@ public class PlayerHeart : MonoBehaviour
     public void Damage(int damage)
     {
         life -= damage;
-        uiSystem.LifeBarChange(damage);
+        uiSystem.LifeBarDegrease(damage);
         uiSystem.TextChange();
     }
 
     public void Heal(int regen)
     {
         life += regen;
+        if (life > lifeMax)
+        {
+            life = lifeMax;
+        }
+        
+        uiSystem.LifeBarAddition(regen);
+        uiSystem.TextChange();
     }
 
     public double GetPower()
