@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,8 +8,13 @@ public class SoundSystem : MonoBehaviour
     [SerializeField] private List<AudioClip> sounds = null;
     private Dictionary<string, AudioClip> soundsDic = new Dictionary<string, AudioClip>();
 
-    private AudioSource audioSource;    
-    
+    private AudioSource audioSource;
+
+    private void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject);
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,8 +33,24 @@ public class SoundSystem : MonoBehaviour
 
     public AudioClip PlayAudio(string nameAudio)
     {
-        AudioClip audioClip = soundsDic[nameAudio];
-        audioSource.PlayOneShot(soundsDic[nameAudio]);
+        AudioSource[] audios = FindObjectsOfType<AudioSource>();
+        foreach (AudioSource audioSpec in audios)
+        {
+            if (audioSpec.clip == null)
+            {
+                audioSpec.PlayOneShot(soundsDic[nameAudio]);
+            }
+        }
+        
         return soundsDic[nameAudio];
+    }
+
+    public void PauseAudios()
+    {
+        AudioSource[] audios = FindObjectsOfType<AudioSource>();
+        foreach (AudioSource audio in audios)
+        {
+            audio.Pause();
+        }
     }
 }

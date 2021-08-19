@@ -6,7 +6,7 @@ using UnityEngine;
 public class JojoEffect : MonoBehaviour
 {
     [SerializeField] private SpriteRenderer player = null;
-    [SerializeField] private SpriteRenderer toriel = null;
+    [SerializeField] private SpriteRenderer enemy = null;
     [SerializeField] private SpriteRenderer backGround = null;
 
     [SerializeField] private GameObject spawnLetters = null;
@@ -18,7 +18,9 @@ public class JojoEffect : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       
+        player = DirectorWorld.instance.player.GetComponent<SpriteRenderer>();
+        enemy = GameObject.FindWithTag("Enemy").GetComponent<SpriteRenderer>();
+        backGround = GameObject.FindWithTag("BackGround").GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -48,16 +50,32 @@ public class JojoEffect : MonoBehaviour
         float totalBlink = 0;
         
         while(Time.time < endTime){
-            player.enabled = false;
-            toriel.enabled = false;
-            backGround.enabled = false;
+            /*player.enabled = false;
+            enemy.enabled = false;
+            backGround.enabled = false;*/
+
+            foreach (GameObject gameObjectInScene in DirectorWorld.instance.worldObjects)
+            {
+                if (gameObjectInScene.GetComponent<SpriteRenderer>() != null)
+                {
+                    gameObjectInScene.GetComponent<SpriteRenderer>().enabled = false;
+                }
+            }
             
             yield return new WaitForSeconds(seconds);
             
-            player.enabled = true;
-            toriel.enabled = true;
-            backGround.enabled = true;
+            /*player.enabled = true;
+            enemy.enabled = true;
+            backGround.enabled = true;*/
             
+            
+            foreach (GameObject gameObjectInScene in DirectorWorld.instance.worldObjects)
+            {
+                if (gameObjectInScene.GetComponent<SpriteRenderer>() != null)
+                {
+                    gameObjectInScene.GetComponent<SpriteRenderer>().enabled = true;
+                }
+            }
             yield return new WaitForSeconds(seconds);
             
             totalBlink++;

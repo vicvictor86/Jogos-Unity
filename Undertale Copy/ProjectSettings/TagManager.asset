@@ -7,6 +7,12 @@ TagManager:
   - BattleField
   - EndOfFire
   - Toriel
+  - NextLevel
+  - PreviousLevel
+  - Enemy
+  - SpawnPointBegin
+  - SpawnPointBack
+  - BackGround
   layers:
   - Default
   - TransparentFX

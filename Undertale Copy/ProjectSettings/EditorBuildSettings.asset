@@ -9,9 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 7e7fc218bfa63c54a82210d4e282940f
   - enabled: 1
+    path: Assets/Scenes/Tutorial/Fase 0.unity
+    guid: 3ac6069083b3edb42918565d94e19748
+  - enabled: 1
     path: Assets/Scenes/Fase 1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/BattleTest.unity
     guid: 863b91dd48b5a1242a5b62dd59438495
+  - enabled: 1
+    path: Assets/Scenes/Tutorial/FloweyLevel.unity
+    guid: ec5121bf8b3289d44983aa1a91ea8659
   m_configObjects: {}
