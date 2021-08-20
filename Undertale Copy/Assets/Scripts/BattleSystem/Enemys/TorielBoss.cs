@@ -2,17 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TorielBoss : MonoBehaviour
+public class TorielBoss : Enemy
 {
     [Header("Toriel Informations")]
-    [SerializeField] private double life;
-    [SerializeField] private int powerOfToriel = 0;
     [SerializeField] private GameObject fireToriel = null;
-    [SerializeField] private int convincing = 0;
-
-    [Header("Region Of Fire")]
-    [SerializeField] private Vector3 center;
-    [SerializeField] private Vector3 size;
 
     // Start is called before the first frame update
     void Start()
@@ -30,39 +23,39 @@ public class TorielBoss : MonoBehaviour
         }
     }
 
-    public void Attack()
+    private void Attack()
     {
         Vector3 pos = center + new Vector3(Random.Range(-size.x / 2, size.x / 2), Random.Range(-size.y / 2, size.y / 2), 0);
         Instantiate(fireToriel, pos, Quaternion.identity);
     }
-
-    public void TakeDamage(double damage)
-    {
-        this.life -= damage;
-    }
-
+    
     public void OnDrawGizmos()
     {
         Gizmos.DrawCube(center, size);
     }
 
-    public int GetPowerOfToriel()
+    public override string GetName()
     {
-        return this.powerOfToriel;
+        return "Toriel";
+    }
+    
+    public override string TextBeggin()
+    {
+        return "Toriel ta tiltada contigo";
     }
 
-    public double GetLife()
+    public override string TextConviced()
     {
-        return this.life;
+        return "Toriel nao ta mais tiltada, ces fizeram as pazes";
     }
 
-    public int GetConvincing()
+    public override string TextNoConviced()
     {
-        return this.convincing;
+        return "Toriel ainda ta tiltada contigo, hora da porrada";
     }
 
-    public void Convince(int number)
+    public override string TextTalking()
     {
-        this.convincing -= number;
+        return "Você tenta conversar com Toriel, sem sucesso.";
     }
 }

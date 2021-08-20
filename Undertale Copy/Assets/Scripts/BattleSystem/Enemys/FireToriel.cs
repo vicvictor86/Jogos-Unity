@@ -10,7 +10,7 @@ public class FireToriel : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        powerOfToriel = GameObject.Find("Toriel").GetComponent<TorielBoss>().GetPowerOfToriel();
+        powerOfToriel = GameObject.Find("Toriel").GetComponent<TorielBoss>().GetPowerEnemy();
     }
 
     // Update is called once per frame

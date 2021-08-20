@@ -11,7 +11,7 @@ public class PointerOfAttack : MonoBehaviour
 
     private GameObject attackLevel;
     //Fazer Herança da classe enemy
-    private TorielBoss toriel;
+    private Enemy enemyActual;
     private PlayerHeart playerHeart;
 
     private Collider2D lastCollision;
@@ -22,7 +22,7 @@ public class PointerOfAttack : MonoBehaviour
     {
         rig = this.GetComponent<Rigidbody2D>();
         attackLevel = GameObject.Find("AttackLevel(Clone)");
-        toriel = GameObject.Find("Toriel").GetComponent<TorielBoss>();
+        enemyActual = GameObject.FindWithTag("Enemy").GetComponent<Enemy>();
         playerHeart = GameObject.Find("PlayerHeart").GetComponent<PlayerHeart>();
     }
 
@@ -60,7 +60,7 @@ public class PointerOfAttack : MonoBehaviour
         double damageReduce = DamageReduce();
         double powerOfPlayer = playerHeart.GetPower();
 
-        toriel.TakeDamage(powerOfPlayer - Math.Truncate(powerOfPlayer * damageReduce));
+        enemyActual.TakeDamage(powerOfPlayer - Math.Truncate(powerOfPlayer * damageReduce));
         //Animação da toriel tomando dano
         CleanBattleField();
         Destroy(this.gameObject);
@@ -93,7 +93,7 @@ public class PointerOfAttack : MonoBehaviour
         }
     }
 
-    public void CollisionWithBattleField()
+    private void CollisionWithBattleField()
     {
         if (quantityOfCollision == 0)
         {

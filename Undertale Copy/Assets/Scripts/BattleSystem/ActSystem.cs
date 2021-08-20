@@ -12,11 +12,11 @@ public class ActSystem : MonoBehaviour
     [SerializeField] private GameObject whatHappen = null;
 
     [SerializeField] private bool isReading = false;
-    private TorielBoss toriel = null;
+    private Enemy enemyActual = null;
     
     private void Start()
     {
-        toriel = GameObject.Find("Toriel").GetComponent<TorielBoss>();
+        enemyActual = GameObject.FindWithTag("Enemy").GetComponent<Enemy>();
     }
 
     // Update is called once per frame
@@ -54,16 +54,16 @@ public class ActSystem : MonoBehaviour
         isReading = true;
     }
 
-    public void ClickOnCheck()
+    private void ClickOnCheck()
     {
         GameObject.Find("Diretor").GetComponent<Diretor>().DisableBack();
-        WhatHappen("                                     Attack: " + toriel.GetPowerOfToriel() + "                                                    Life: " + toriel.GetLife());
+        WhatHappen("                                     Attack: " + enemyActual.GetPowerEnemy() + "                                                    Life: " + enemyActual.GetLife());
     }
 
-    public void ClickOnTalk()
+    private void ClickOnTalk()
     {
         GameObject.Find("Diretor").GetComponent<Diretor>().DisableBack();
-        WhatHappen("Você tenta conversar com Toriel, sem sucesso.");
-        toriel.Convince(1);
+        WhatHappen(enemyActual.TextTalking());
+        enemyActual.Convince(1);
     }
 }

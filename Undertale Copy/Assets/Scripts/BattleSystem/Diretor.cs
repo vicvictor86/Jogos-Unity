@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Asyncoroutine;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -20,6 +21,7 @@ public class Diretor : MonoBehaviour
     [SerializeField] private bool isConvinced = false;
     [SerializeField] private GameObject openWorldScreen = null;
     [SerializeField] private List<Button> battleButtons = null;
+    [SerializeField] private Enemy enemyActual = null;
     
     [Header("Attack Actions")]
     [SerializeField] private GameObject attackLevel = null;
@@ -48,15 +50,15 @@ public class Diretor : MonoBehaviour
     [SerializeField] private ItemSystem itemSystem = null;
     [SerializeField] private GameObject itemButton = null;
     [SerializeField] private List<Itens> itensList = null;
-
-    private TorielBoss toriel = null;
+    
     private GameObject lastButtonSelected = null;
 
     public void Start()
     {
-        Instantiate(textOfCharacter, positionOfText.transform.position, Quaternion.identity, positionOfText.transform.parent);
-        toriel = GameObject.Find("Toriel").GetComponent<TorielBoss>();
+        enemyActual = GameObject.FindWithTag("Enemy").GetComponent<Enemy>();
         itemSystem = GameObject.Find("ItemSystem").GetComponent<ItemSystem>();
+        InstantiateTextOfCharacter(enemyActual.TextBeggin());
+        
         PlayerPrefs.DeleteAll();
         PlayerPrefs.SetInt("Life PotionQuantity", 2);
         PlayerPrefs.SetInt("MeatQuantity", 1);
@@ -70,10 +72,11 @@ public class Diretor : MonoBehaviour
             //MenuEsc.SetActive(estaPausado);    
         }
 
-        if(Input.GetKeyUp(KeyCode.Z) && isReading)
+        if(Input.GetKeyDown(KeyCode.Z) && isReading)
         {
             Destroy(GameObject.Find("TextCharacter(Clone)"));
             isReading = false;
+            
             if (!isConvinced)
             {
                 PrepareToFight();
@@ -81,7 +84,7 @@ public class Diretor : MonoBehaviour
             else
             {
                 openWorldScreen.SetActive(true);
-                this.transform.parent.gameObject.SetActive(false);
+                transform.parent.gameObject.SetActive(false);
             }
         }
 
@@ -204,19 +207,25 @@ public class Diretor : MonoBehaviour
         buttonPlayerTarget.GetComponent<Button>().onClick.AddListener(WannaMercyButton);
     }
 
-    private void WannaMercyButton()
+    private async void WannaMercyButton()
     {
         Destroy(GameObject.Find("PlayerTarget(Clone)"));
         DisableBack();
-        if (toriel.GetConvincing() <= 0)
+        if (enemyActual.GetConvincing() <= 0)
         {
-            InstantiateTextOfCharacter("Toriel nao ta mais tiltada, ces fizeram as pazes");
+            InstantiateTextOfCharacter(enemyActual.TextConviced());
+            
+            await new WaitForSeconds(0.5f);
+            
             isConvinced = true;
             isReading = true;
         }
         else
         {
-            InstantiateTextOfCharacter("Toriel ainda ta tiltada contigo, hora da porrada");
+            InstantiateTextOfCharacter(enemyActual.TextNoConviced());
+            
+            await new WaitForSeconds(0.5f);
+            
             isReading = true;
         }
     }
@@ -248,7 +257,7 @@ public class Diretor : MonoBehaviour
         ChangeBattleFieldToLarge();
         yield return new WaitForSeconds(1f);
         
-        InstantiateTextOfCharacter("Toriel ta tiltada contigo");
+        InstantiateTextOfCharacter(enemyActual.TextBeggin());
         SetInterectableButtons(true);
         
         DisableBack();
@@ -306,13 +315,15 @@ public class Diretor : MonoBehaviour
 
     private GameObject DefineTarget()
     {
-        return Instantiate(playerTarget, positionOfCheck.transform.position, Quaternion.identity, positionOfCheck.transform.parent);
+        GameObject target = Instantiate(playerTarget, positionOfCheck.transform.position, Quaternion.identity, positionOfCheck.transform.parent);
+        target.GetComponentInChildren<Text>().text = enemyActual.GetName();
+        return target;
     }
 
     private void ReturnToTextFromTargetSelect()
     {
         Destroy(GameObject.Find("PlayerTarget(Clone)"));
-        InstantiateTextOfCharacter("Toriel ta tiltada contigo");
+        InstantiateTextOfCharacter(enemyActual.TextBeggin());
         SetInterectableButtons(true);
     }
 
