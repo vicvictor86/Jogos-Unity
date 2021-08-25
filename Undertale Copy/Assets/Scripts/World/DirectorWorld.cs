@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DirectorWorld : MonoBehaviour
 {
@@ -16,11 +17,19 @@ public class DirectorWorld : MonoBehaviour
     [SerializeField] public GameObject battleScreenPrefab = null;
     [SerializeField] public List<GameObject> worldObjects = new List<GameObject>();
 
+    public int indexOfScene = 0;
+    
+    public GameObject battleScreenActual = null;
+    public GameObject JojoEffectActual = null;
+    public GameObject soundSystem = null;
+    public GameObject spawnManager = null;
+    
     void Awake()
     {
         if (instance == null)
         {
             instance = this;
+            SceneManager.sceneLoaded += DefineObjectsDirectorWorld;
             DontDestroyOnLoad(this.gameObject);
         }
         else
@@ -28,28 +37,52 @@ public class DirectorWorld : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
-    private void Start()
+    
+    private void DefineObjectsDirectorWorld(Scene scene, LoadSceneMode mode)
     {
-        GameObject parent = GameObject.Find("World");
-        worldObjects.Clear();
-        foreach (Transform child in parent.transform)
+        battleScreenActual = GameObject.Find("BattleScreen");
+        if (battleScreenActual)
         {
-            worldObjects.Add(child.gameObject);
+            battleScreenActual.SetActive(false);
         }
+
+        soundSystem = GameObject.Find("SoundSystem");
+        JojoEffectActual = GameObject.Find("JojoEffect");
+        spawnManager = GameObject.Find("SpawnManager");
         
-        worldObjects.Add(player);
-        
-        GameObject enemy = GameObject.FindWithTag("Enemy");
-        if (enemy != null)
+        GameObject parent = GameObject.FindWithTag("World");
+        worldObjects.Clear();
+        if (parent)
         {
-            worldObjects.Add(enemy);
+            foreach (Transform child in parent.transform)
+            {
+                worldObjects.Add(child.gameObject);
+            }
         }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void SetBattleScreen(bool boolean)
     {
-        
+        battleScreenActual.SetActive(boolean);
+    }
+
+    public void StartJojoEffect()
+    {
+        JojoEffectActual.GetComponent<JojoEffect>().StartingBattle();
+    }
+
+    public void PauseAudios()
+    {
+        soundSystem.GetComponent<SoundSystem>().PauseAudios();
+    }
+    
+    public AudioClip PlayAudio(string sound)
+    {
+        return soundSystem.GetComponent<SoundSystem>().PlayAudio(sound);
+    }
+
+    public void SetNextLevel(bool boolean)
+    {
+        spawnManager.GetComponent<SpawnManager>().nextLevel = boolean;
     }
 }

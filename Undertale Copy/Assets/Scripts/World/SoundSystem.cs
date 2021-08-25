@@ -9,9 +9,20 @@ public class SoundSystem : MonoBehaviour
     private Dictionary<string, AudioClip> soundsDic = new Dictionary<string, AudioClip>();
 
     private AudioSource audioSource;
-
+    public static SoundSystem instance;
+    
     private void Awake()
     {
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(this.gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+        
         DontDestroyOnLoad(this.gameObject);
     }
 

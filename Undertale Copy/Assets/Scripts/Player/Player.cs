@@ -9,87 +9,72 @@ public class Player : MonoBehaviour
 
     [Header("Player Informations")]
     [SerializeField] private float speed;
-    
-    
-    [Header("GameObjects")]
-    [SerializeField] private GameObject battleScreen = null;
-    [SerializeField] private SoundSystem soundSystem = null;
-    [SerializeField] private JojoEffect jojoEffect = null;
-    [SerializeField] private SpawnManager spawnManager = null;
 
     private Rigidbody2D rig;
-    private float movimentoH;
-    private float movimentoV;
+    private Vector2 movement;
     private Animator animator;
     
     private bool alreadyBattle = false;
 
     private void Start()
     {
-        rig = this.GetComponent<Rigidbody2D>();
+        rig = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        spawnManager = GameObject.Find("SpawnManager").GetComponent<SpawnManager>();
     }
     
     private void Update()
     {
         MovementPlayer();
-        AnimationMovement();
     }
 
     private void AnimationMovement()
     {
-        animator.SetFloat("VelocityH", movimentoH);
-        animator.SetFloat("VelocityV", movimentoV);
-        animator.SetFloat("FacingRight",movimentoH);
-        animator.SetFloat("FacingUp", movimentoV);
-        
-        if(movimentoH == 0 && movimentoV == 0)
+        if (movement != Vector2.zero)
         {
-            animator.SetBool("Moving", false);
+            animator.SetFloat("Horizontal", movement.x);
+            animator.SetFloat("Vertical", movement.y);       
         }
-        else
-        {
-            animator.SetBool("Moving", true);
-        }
+        animator.SetFloat("Speed", movement.sqrMagnitude);
     }
 
     private void MovementPlayer()
     {
-        movimentoH = Input.GetAxisRaw("Horizontal");
-        movimentoV = Input.GetAxisRaw("Vertical");
-
-        rig.velocity = new Vector2(movimentoH * speed, movimentoV * speed);
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
+        
+        rig.velocity = new Vector2(movement.x * speed, movement.y * speed);
+        AnimationMovement();
     }
     
     private async void OnTriggerEnter2D(Collider2D colliderOther)
     {
         if (colliderOther.CompareTag("NextLevel"))
         {
-            spawnManager.nextLevel = true;
+            DirectorWorld.instance.SetNextLevel(true);
             LevelManager.NextLevel();
         }
 
         if (colliderOther.CompareTag("PreviousLevel"))
         {
-            spawnManager.nextLevel = false;
+            DirectorWorld.instance.SetNextLevel(false);
             LevelManager.PreviousLevel();
         }
         
         if (colliderOther.gameObject.CompareTag("Enemy") && alreadyBattle == false)
         {
-            soundSystem.PauseAudios();
-            jojoEffect.StartingBattle();
+            DirectorWorld.instance.PauseAudios();
+            DirectorWorld.instance.StartJojoEffect();
 
             float timeFlick = 2f;
             await new WaitForSeconds(timeFlick);
             
-            AudioClip audioBattle = soundSystem.PlayAudio("StartingBattle");
+            AudioClip audioBattle = DirectorWorld.instance.PlayAudio("StartingBattle");
             
             await new WaitForSeconds(audioBattle.length);
             
-            battleScreen.SetActive(true);
-            GameObject.Find("OpenWorldScreen").SetActive(false);
+            DirectorWorld.instance.SetBattleScreen(true);
+            GameObject.Find("Diretor").GetComponent<Diretor>().CatchWorldScreen();
+            GameObject.Find("World").SetActive(false);
             alreadyBattle = true;
         }
     }

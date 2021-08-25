@@ -53,6 +53,11 @@ public class Diretor : MonoBehaviour
     
     private GameObject lastButtonSelected = null;
 
+    public void CatchWorldScreen()
+    {
+        openWorldScreen = GameObject.FindWithTag("World");
+    }
+    
     public void Start()
     {
         enemyActual = GameObject.FindWithTag("Enemy").GetComponent<Enemy>();
@@ -60,7 +65,7 @@ public class Diretor : MonoBehaviour
         InstantiateTextOfCharacter(enemyActual.TextBeggin());
         
         PlayerPrefs.DeleteAll();
-        PlayerPrefs.SetInt("Life PotionQuantity", 2);
+        PlayerPrefs.SetInt("Life PotionQuantity", 3);
         PlayerPrefs.SetInt("MeatQuantity", 1);
     }
 

@@ -13,6 +13,10 @@ TagManager:
   - SpawnPointBegin
   - SpawnPointBack
   - BackGround
+  - World
+  - LimitCamera
+  - LimitV
+  - LimitH
   layers:
   - Default
   - TransparentFX
