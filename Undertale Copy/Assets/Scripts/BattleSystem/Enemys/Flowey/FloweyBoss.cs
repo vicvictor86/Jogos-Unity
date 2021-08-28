@@ -2,27 +2,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class FloweyBoss : Enemy
 {
+    public Sprite spriteFlowey;
+    public string[] speechText;
 
     // Start is called before the first frame update
     private void Awake()
     {
-        this.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("Flowey");
+        if (!isEnemyOpenWorld)
+        {
+            GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("Flowey");
+        }
     }
-
-    void Start()
-    {
-               
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    
     public override string GetName()
     {
         return "Flowey";
@@ -46,5 +41,16 @@ public class FloweyBoss : Enemy
     public override string TextTalking()
     {
         return "Flowey gostou do seu papo, vcs possuem muita coisa em comum";
+    }
+
+    public override GameObject ContactWithPlayer()
+    {
+        GameObject conversationInScene = Instantiate(DirectorWorld.instance.conversationWithNpc, GameObject.Find("Canvas").transform);
+        DialogueSystem.instance.Speech(conversationInScene, spriteFlowey, speechText);
+        
+        DirectorWorld.instance.isReading = true;
+        DirectorWorld.instance.soundSystem.PlayAudio("YourBestFriend");
+        
+        return conversationInScene;
     }
 }

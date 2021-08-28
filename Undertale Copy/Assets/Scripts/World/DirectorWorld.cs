@@ -21,8 +21,12 @@ public class DirectorWorld : MonoBehaviour
     
     public GameObject battleScreenActual = null;
     public GameObject JojoEffectActual = null;
-    public GameObject soundSystem = null;
+    public SoundSystem soundSystem = null;
     public GameObject spawnManager = null;
+
+    [Header("Talk Objects")]
+    public GameObject conversationWithNpc;
+    public bool isReading;
     
     void Awake()
     {
@@ -37,7 +41,7 @@ public class DirectorWorld : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    
+
     private void DefineObjectsDirectorWorld(Scene scene, LoadSceneMode mode)
     {
         battleScreenActual = GameObject.Find("BattleScreen");
@@ -46,10 +50,10 @@ public class DirectorWorld : MonoBehaviour
             battleScreenActual.SetActive(false);
         }
 
-        soundSystem = GameObject.Find("SoundSystem");
+        soundSystem = GameObject.Find("SoundSystem").GetComponent<SoundSystem>();
         JojoEffectActual = GameObject.Find("JojoEffect");
         spawnManager = GameObject.Find("SpawnManager");
-        
+
         GameObject parent = GameObject.FindWithTag("World");
         worldObjects.Clear();
         if (parent)
@@ -66,7 +70,7 @@ public class DirectorWorld : MonoBehaviour
         battleScreenActual.SetActive(boolean);
     }
 
-    public void StartJojoEffect()
+    public async void StartJojoEffect()
     {
         JojoEffectActual.GetComponent<JojoEffect>().StartingBattle();
     }

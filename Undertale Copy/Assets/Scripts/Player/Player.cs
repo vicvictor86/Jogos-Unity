@@ -15,7 +15,9 @@ public class Player : MonoBehaviour
     private Animator animator;
     
     private bool alreadyBattle = false;
-
+    private GameObject conversationInScene;
+    private bool canMove = true;
+    
     private void Start()
     {
         rig = GetComponent<Rigidbody2D>();
@@ -24,7 +26,21 @@ public class Player : MonoBehaviour
     
     private void Update()
     {
-        MovementPlayer();
+        if (canMove)
+        {
+            MovementPlayer();
+        }
+        else if(DirectorWorld.instance.isReading)
+        {
+            rig.velocity = Vector2.zero;
+            movement = Vector2.zero;
+            AnimationMovement();
+            
+            if (Input.GetKeyDown(KeyCode.Z))
+            {
+                DialogueSystem.instance.NextSentence();
+            }
+        }
     }
 
     private void AnimationMovement()
@@ -46,7 +62,7 @@ public class Player : MonoBehaviour
         AnimationMovement();
     }
     
-    private async void OnTriggerEnter2D(Collider2D colliderOther)
+    private void OnTriggerEnter2D(Collider2D colliderOther)
     {
         if (colliderOther.CompareTag("NextLevel"))
         {
@@ -62,20 +78,30 @@ public class Player : MonoBehaviour
         
         if (colliderOther.gameObject.CompareTag("Enemy") && alreadyBattle == false)
         {
-            DirectorWorld.instance.PauseAudios();
-            DirectorWorld.instance.StartJojoEffect();
-
-            float timeFlick = 2f;
-            await new WaitForSeconds(timeFlick);
-            
-            AudioClip audioBattle = DirectorWorld.instance.PlayAudio("StartingBattle");
-            
-            await new WaitForSeconds(audioBattle.length);
-            
-            DirectorWorld.instance.SetBattleScreen(true);
-            GameObject.Find("Diretor").GetComponent<Diretor>().CatchWorldScreen();
-            GameObject.Find("World").SetActive(false);
-            alreadyBattle = true;
+            canMove = false;
+            conversationInScene = colliderOther.gameObject.GetComponent<Enemy>().ContactWithPlayer(); 
+            //StartingBattle();
         }
+    }
+
+    public async void StartingBattle()
+    {
+        DirectorWorld.instance.PauseAudios();
+        DirectorWorld.instance.StartJojoEffect();
+
+        float timeFlick = 2f;
+        await new WaitForSeconds(timeFlick);
+            
+        AudioClip audioBattle = DirectorWorld.instance.PlayAudio("StartingBattle");
+            
+        await new WaitForSeconds(audioBattle.length);
+            
+        DirectorWorld.instance.SetBattleScreen(true);
+        GameObject.Find("Diretor").GetComponent<Diretor>().CatchWorldScreen();
+        
+        canMove = true;
+        GameObject.Find("World").SetActive(false);
+        
+        alreadyBattle = true;
     }
 }

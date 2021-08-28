@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    [SerializeField] protected bool isEnemyOpenWorld = false;
+    
     [Header("Informations Enemy")]
     [SerializeField] protected double life;
     [SerializeField] protected int powerOfEnemy = 0;
@@ -61,6 +63,12 @@ public class Enemy : MonoBehaviour
 
     public virtual string TextTalking()
     {
+        return null;
+    }
+
+    public virtual GameObject ContactWithPlayer()
+    {
+        Debug.Log("Não foi no mais específico");
         return null;
     }
 }

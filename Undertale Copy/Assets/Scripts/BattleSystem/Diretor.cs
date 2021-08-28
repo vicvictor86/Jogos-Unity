@@ -88,6 +88,7 @@ public class Diretor : MonoBehaviour
             }
             else
             {
+                DirectorWorld.instance.PauseAudios();
                 openWorldScreen.SetActive(true);
                 transform.parent.gameObject.SetActive(false);
             }

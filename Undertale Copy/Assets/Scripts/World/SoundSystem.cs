@@ -7,10 +7,7 @@ public class SoundSystem : MonoBehaviour
 {
     [SerializeField] private List<AudioClip> sounds = null;
     private Dictionary<string, AudioClip> soundsDic = new Dictionary<string, AudioClip>();
-
-    private AudioSource audioSource;
     public static SoundSystem instance;
-    
     private void Awake()
     {
         if (instance == null)
@@ -29,7 +26,6 @@ public class SoundSystem : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        audioSource = GetComponent<AudioSource>();
         foreach (AudioClip sound in sounds)
         {  
             soundsDic.Add(sound.name, sound);
@@ -49,7 +45,9 @@ public class SoundSystem : MonoBehaviour
         {
             if (audioSpec.clip == null)
             {
+                audioSpec.clip = soundsDic[nameAudio];
                 audioSpec.PlayOneShot(soundsDic[nameAudio]);
+                return soundsDic[nameAudio];
             }
         }
         
@@ -59,9 +57,9 @@ public class SoundSystem : MonoBehaviour
     public void PauseAudios()
     {
         AudioSource[] audios = FindObjectsOfType<AudioSource>();
-        foreach (AudioSource audio in audios)
+        foreach (AudioSource audioActual in audios)
         {
-            audio.Pause();
+            audioActual.Pause();
         }
     }
 }

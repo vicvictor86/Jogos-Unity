@@ -30,7 +30,7 @@ public class JojoEffect : MonoBehaviour
 
     public async void StartingBattle()
     {
-        GameObject.Find("SoundSystem").GetComponent<SoundSystem>().PlayAudio("GiornoTheme");
+        DirectorWorld.instance.PlayAudio("GiornoTheme");
         StartCoroutine(Blink(2f));
         
         await new WaitForSeconds(2f);
