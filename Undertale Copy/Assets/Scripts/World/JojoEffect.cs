@@ -30,7 +30,7 @@ public class JojoEffect : MonoBehaviour
 
     public async void StartingBattle()
     {
-        DirectorWorld.instance.PlayAudio("GiornoTheme");
+        DirectorWorld.instance.PlayAudio("GiornoTheme", false);
         StartCoroutine(Blink(2f));
         
         await new WaitForSeconds(2f);

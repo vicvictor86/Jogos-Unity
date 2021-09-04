@@ -13,11 +13,8 @@ public class Player : MonoBehaviour
     private Rigidbody2D rig;
     private Vector2 movement;
     private Animator animator;
-    
-    private bool alreadyBattle = false;
     private GameObject conversationInScene;
-    private bool canMove = true;
-    
+
     private void Start()
     {
         rig = GetComponent<Rigidbody2D>();
@@ -26,21 +23,26 @@ public class Player : MonoBehaviour
     
     private void Update()
     {
-        if (canMove)
+        if (DirectorWorld.instance.playerCanMove)
         {
             MovementPlayer();
         }
-        else if(DirectorWorld.instance.isReading)
+        if(DirectorWorld.instance.isReading)
         {
-            rig.velocity = Vector2.zero;
-            movement = Vector2.zero;
-            AnimationMovement();
+            StopPlayerMovement();
             
             if (Input.GetKeyDown(KeyCode.Z))
             {
                 DialogueSystem.instance.NextSentence();
             }
         }
+    }
+
+    private void StopPlayerMovement()
+    {
+        rig.velocity = Vector2.zero;
+        movement = Vector2.zero;
+        AnimationMovement();
     }
 
     private void AnimationMovement()
@@ -76,32 +78,29 @@ public class Player : MonoBehaviour
             LevelManager.PreviousLevel();
         }
         
-        if (colliderOther.gameObject.CompareTag("Enemy") && alreadyBattle == false)
+        if (colliderOther.gameObject.CompareTag("Enemy") && DirectorWorld.instance.playerAlreadyBattle == false)
         {
-            canMove = false;
-            conversationInScene = colliderOther.gameObject.GetComponent<Enemy>().ContactWithPlayer(); 
-            //StartingBattle();
+            DirectorWorld.instance.playerCanMove = false;
+            conversationInScene = colliderOther.gameObject.GetComponent<Enemy>().ContactWithPlayer();
         }
     }
 
     public async void StartingBattle()
     {
+        StopPlayerMovement();
+        
         DirectorWorld.instance.PauseAudios();
         DirectorWorld.instance.StartJojoEffect();
 
         float timeFlick = 2f;
         await new WaitForSeconds(timeFlick);
-            
-        AudioClip audioBattle = DirectorWorld.instance.PlayAudio("StartingBattle");
-            
+        AudioClip audioBattle = DirectorWorld.instance.PlayAudio("StartingBattle", false);
         await new WaitForSeconds(audioBattle.length);
             
-        DirectorWorld.instance.SetBattleScreen(true);
-        GameObject.Find("Diretor").GetComponent<Diretor>().CatchWorldScreen();
-        
-        canMove = true;
-        GameObject.Find("World").SetActive(false);
-        
-        alreadyBattle = true;
+        DirectorWorld.instance.ChangeScreen("World", "BattleScreenParent");
+
+        float timeRemaingToFirstAudio = 27f;
+        await new WaitForSeconds(timeRemaingToFirstAudio);
+        DirectorWorld.instance.PlayAudio("JojoThemeComplete", true);
     }
 }

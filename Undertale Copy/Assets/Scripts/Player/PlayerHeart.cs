@@ -21,13 +21,13 @@ public class PlayerHeart : MonoBehaviour
 
     private void Start()
     {
-        rigid = this.GetComponent<Rigidbody2D>();
-        diretor = GameObject.Find("Diretor").GetComponent<Diretor>();
+        rigid = GetComponent<Rigidbody2D>();
+        diretor = FindObjectOfType<Diretor>();
     }
 
     private void Update()
     {
-        if(diretor.IsFighting())
+        if(diretor == null || diretor.IsFighting())
         {
             MovimentoPlayerHeart();
         }

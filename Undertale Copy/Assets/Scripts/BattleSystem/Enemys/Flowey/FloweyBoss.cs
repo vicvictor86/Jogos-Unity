@@ -45,11 +45,15 @@ public class FloweyBoss : Enemy
 
     public override GameObject ContactWithPlayer()
     {
-        GameObject conversationInScene = Instantiate(DirectorWorld.instance.conversationWithNpc, GameObject.Find("Canvas").transform);
-        DialogueSystem.instance.Speech(conversationInScene, spriteFlowey, speechText);
+        if (GameObject.Find("SecondEncounter").GetComponent<SecondEncountetWithFlowey>().nowIsTheRealFight)
+        {
+            GameObject.FindWithTag("Player").GetComponent<Player>().StartingBattle();
+            return null;
+        }
+        GameObject conversationInScene = DialogueSystem.instance.CreateBoxConversation(DirectorWorld.instance.conversationWithNpc, spriteFlowey, speechText);
         
         DirectorWorld.instance.isReading = true;
-        DirectorWorld.instance.soundSystem.PlayAudio("YourBestFriend");
+        DirectorWorld.instance.soundSystem.PlayAudio("YourBestFriend", true);
         
         return conversationInScene;
     }

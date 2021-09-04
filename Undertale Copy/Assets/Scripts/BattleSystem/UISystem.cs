@@ -9,11 +9,12 @@ public class UISystem : MonoBehaviour
     [SerializeField] private PlayerHeart playerHeart = null;
     [SerializeField] private Text textOfLife = null;
     [SerializeField] private Image lifeBar = null;
+    [SerializeField] private Text playerName = null;
     
     // Start is called before the first frame update
     void Start()
     {
-        
+        playerName.text = DirectorWorld.instance.playerName;
     }
 
     // Update is called once per frame

@@ -38,15 +38,16 @@ public class SoundSystem : MonoBehaviour
         
     }
 
-    public AudioClip PlayAudio(string nameAudio)
+    public AudioClip PlayAudio(string nameAudio, bool looping)
     {
         AudioSource[] audios = FindObjectsOfType<AudioSource>();
         foreach (AudioSource audioSpec in audios)
         {
-            if (audioSpec.clip == null)
+            if (audioSpec.clip == null || !audioSpec.isPlaying)
             {
                 audioSpec.clip = soundsDic[nameAudio];
-                audioSpec.PlayOneShot(soundsDic[nameAudio]);
+                audioSpec.loop = looping;
+                audioSpec.Play();
                 return soundsDic[nameAudio];
             }
         }

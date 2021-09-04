@@ -10,6 +10,7 @@ public class DirectorWorld : MonoBehaviour
     
     [Header("Player Informations")] [SerializeField]
     public GameObject player;
+    public string playerName;
     [SerializeField] public int lifePlayer = 0;
     [SerializeField] public int lifeMax = 0 ;
     [SerializeField] public double power = 0.0 ;
@@ -27,6 +28,8 @@ public class DirectorWorld : MonoBehaviour
     [Header("Talk Objects")]
     public GameObject conversationWithNpc;
     public bool isReading;
+    public bool playerCanMove = true;
+    public bool playerAlreadyBattle = false;
     
     void Awake()
     {
@@ -70,7 +73,7 @@ public class DirectorWorld : MonoBehaviour
         battleScreenActual.SetActive(boolean);
     }
 
-    public async void StartJojoEffect()
+    public void StartJojoEffect()
     {
         JojoEffectActual.GetComponent<JojoEffect>().StartingBattle();
     }
@@ -80,13 +83,28 @@ public class DirectorWorld : MonoBehaviour
         soundSystem.GetComponent<SoundSystem>().PauseAudios();
     }
     
-    public AudioClip PlayAudio(string sound)
+    public AudioClip PlayAudio(string sound, bool lopping)
     {
-        return soundSystem.GetComponent<SoundSystem>().PlayAudio(sound);
+        return soundSystem.GetComponent<SoundSystem>().PlayAudio(sound, lopping);
     }
 
     public void SetNextLevel(bool boolean)
     {
         spawnManager.GetComponent<SpawnManager>().nextLevel = boolean;
+    }
+    
+    public void OpenBattleScreen(string nameOfObject)
+    {
+        GameObject objectActive = GameObject.Find(nameOfObject).transform.GetChild(0).gameObject;
+        objectActive.SetActive(true);
+        
+        instance.playerCanMove = true;
+        instance.playerAlreadyBattle = true;
+    }
+
+    public void ChangeScreen(string screenToDesactive, string screenToActive)
+    {
+        GameObject.Find(screenToDesactive).SetActive(false);
+        instance.OpenBattleScreen(screenToActive);
     }
 }
