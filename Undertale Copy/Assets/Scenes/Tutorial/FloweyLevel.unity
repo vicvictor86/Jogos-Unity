@@ -2370,7 +2370,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 100
   m_TargetDisplay: 0
 --- !u!1 &751152624
 GameObject:
@@ -3338,7 +3338,7 @@ MonoBehaviour:
   playerHeart: {fileID: 1993172108}
   timeOfBattle: 5
   isConvinced: 0
-  openWorldScreen: {fileID: 0}
+  openWorldScreen: {fileID: 1670725778}
   battleButtons:
   - {fileID: 679747519}
   - {fileID: 1836730756}
@@ -4663,6 +4663,7 @@ MonoBehaviour:
   - Acabei de perceber que esqueci de explicar mais uma coisa
   - Venha aqui, preciso te falar mais uma coisa
   nowIsTheRealFight: 0
+  alreadyBattle: 0
 --- !u!61 &1743101293
 BoxCollider2D:
   m_ObjectHideFlags: 0
